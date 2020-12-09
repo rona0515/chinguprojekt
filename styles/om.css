@@ -23,8 +23,68 @@ nav a img {
     width: 25%;
 }
 
+nav a {}
+
+/*First_section*/
 #first_section {
     background-image: ;
     background-size: cover;
 
+}
+
+.container {
+    position: relative;
+    color: white;
+}
+
+.section_wrapper1 h1 {
+    position: absolute;
+    top: 8px;
+    left: 56px;
+    text-transform: uppercase;
+}
+
+.section_wrapper1 h2 {
+    position: absolute;
+    top: 39px;
+    left: 56px;
+    text-transform: uppercase;
+}
+
+.section_wrapper1 p {
+    position: absolute;
+    top: 82px;
+    left: 56px;
+}
+
+/*second_section*/
+#second_section {
+    background-image: ;
+    background-size: cover;
+
+}
+
+.container {
+    position: relative;
+    color: white;
+}
+
+.section_wrapper2 h1 {
+    position: absolute;
+    top: 32px;
+    left: 56px;
+    text-transform: uppercase;
+}
+
+.section_wrapper2 h2 {
+    position: absolute;
+    top: 62px;
+    left: 56px;
+    text-transform: uppercase;
+}
+
+.section_wrapper2 p {
+    position: absolute;
+    top: 104px;
+    left: 56px;
 }
