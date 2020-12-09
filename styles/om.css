@@ -23,7 +23,11 @@ nav a img {
     width: 25%;
 }
 
-nav a {}
+/*
+nav a {
+    position: absolute;
+}
+*/
 
 /*First_section*/
 #first_section {
