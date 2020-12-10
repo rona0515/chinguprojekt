@@ -24,9 +24,10 @@ nav a {
 
 .section_wrapper1 h1 {
     position: absolute;
-    top: 8px;
+    top: -5px;
     left: 28px;
     text-transform: uppercase;
+    font-size: 30px;
 }
 
 .section_wrapper1 h2 {
@@ -51,22 +52,23 @@ nav a {
 
 .section_wrapper2 h1 {
     position: absolute;
-    top: 26px;
-    left: 50px;
+    top: 0px;
+    left: 200px;
     text-transform: uppercase;
+    font-size: 30px;
 }
 
 .section_wrapper2 h2 {
     position: absolute;
-    top: 60px;
-    left: 28px;
+    top: 45px;
+    left: 200px;
     text-transform: uppercase;
     font-size: 20px;
 }
 
 .section_wrapper2 p {
     position: absolute;
-    top: 95px;
+    top: 80px;
     left: 28px;
 }
 
@@ -100,8 +102,8 @@ h1.outline {
 
 .section_wrapper4 h2 {
     position: absolute;
-    top: 8px;
-    left: 28px;
+    top: 20px;
+    left: 180px;
     text-transform: uppercase;
     color: black;
     margin-bottom: 0vw;
@@ -109,8 +111,8 @@ h1.outline {
 
 .section_wrapper4 h1 {
     position: absolute;
-    top: 41px;
-    left: 28px;
+    top: 51px;
+    left: 120px;
     text-transform: uppercase;
     font-size: 20px;
     color: #b14242;
@@ -118,82 +120,106 @@ h1.outline {
     margin-top: 0vw;
 }
 
+.section_wrapper4 p.chingu {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    color: #524f4f;
+}
+
+
 .section_wrapper4 h3.sammenhold {
     position: absolute;
-    top: 82px;
-    left: 28px;
+    top: 180px;
+    left: 180px;
+    color: #b14242;
 }
 
 .section_wrapper4 img.sammenhold {
     position: absolute;
-    top: 82px;
-    left: 28px;
+    top: 200px;
+    left: 140px;
     width: 40vw;
     height: 40vw;
 }
 
 .section_wrapper4 p.sammenhold {
     position: absolute;
-    top: 100px;
-    left: 28px;
+    top: 340px;
+    left: 40px;
+    text-align: center;
+    color: black;
+
 }
 
 .section_wrapper4 h3.respekt {
     position: absolute;
-    top: 200px;
-    left: 28px;
+    top: 440px;
+    left: 200px;
+    text-align: center;
+    color: #b14242;
 }
 
 .section_wrapper4 p.respekt {
     position: absolute;
-    top: 220px;
-    left: 28px;
+    top: 580px;
+    left: 60px;
+    text-align: center;
+    color: black;
 }
 
 .section_wrapper4 img.respekt {
     position: absolute;
-    top: 300px;
-    left: 28px;
-    width: 25vw;
-    height: 25vw;
+    top: 490px;
+    left: 170px;
+    width: 30vw;
+    height: 20vw;
 }
 
 .section_wrapper4 h3.sport {
     position: absolute;
-    top: 320px;
-    left: 28px;
+    top: 680px;
+    left: 180px;
+    text-align: center;
+    color: #b14242;
+
 }
 
 .section_wrapper4 img.sport {
     position: absolute;
-    top: 500px;
-    left: 28px;
+    top: 730px;
+    left: 190px;
     width: 30vw;
     height: 30vw;
 }
 
 .section_wrapper4 p.sport {
     position: absolute;
-    top: 340px;
-    left: 28px;
+    top: 870px;
+    left: 50px;
+    text-align: center;
+    color: black;
 }
 
 .section_wrapper4 h3.viljestyrke {
     position: absolute;
-    top: 440px;
-    left: 28px;
+    top: 1000px;
+    left: 185px;
+    color: #b14242;
 }
 
 .section_wrapper4 img.viljestyrke {
     position: absolute;
-    top: 700px;
-    left: 28px;
+    top: 1050px;
+    left: 180px;
     width: 30vw;
     height: 30vw;
 }
 
 .section_wrapper4 p.viljestyrke {
     position: absolute;
-    top: 460px;
-    left: 28px;
+    top: 1200px;
+    left: 60px;
+    text-align: center;
+    color: black;
 }
