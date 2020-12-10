@@ -44,21 +44,21 @@ nav a {
 .section_wrapper1 h1 {
     position: absolute;
     top: 8px;
-    left: 56px;
+    left: 28px;
     text-transform: uppercase;
 }
 
 .section_wrapper1 h2 {
     position: absolute;
     top: 39px;
-    left: 56px;
+    left: 28px;
     text-transform: uppercase;
 }
 
 .section_wrapper1 p {
     position: absolute;
     top: 82px;
-    left: 56px;
+    left: 28px;
 }
 
 /*second_section*/
@@ -75,20 +75,20 @@ nav a {
 
 .section_wrapper2 h1 {
     position: absolute;
-    top: 32px;
-    left: 56px;
+    top: 26px;
+    left: 28px;
     text-transform: uppercase;
 }
 
 .section_wrapper2 h2 {
     position: absolute;
-    top: 62px;
-    left: 56px;
+    top: 56px;
+    left: 28px;
     text-transform: uppercase;
 }
 
 .section_wrapper2 p {
     position: absolute;
-    top: 104px;
-    left: 56px;
+    top: 97px;
+    left: 28px;
 }
