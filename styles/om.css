@@ -223,3 +223,31 @@ h1.outline {
     text-align: center;
     color: black;
 }
+
+
+.image-container {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+
+.image-container figure {
+    flex-grow: 1;
+}
+
+@media (max-width: 550px) {
+    .image-container {
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    .image-container figure {
+        flex-basis: 90%;
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+
+    .image-container img {
+        margin-right: 20px;
+    }
+}
