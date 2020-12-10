@@ -7,11 +7,14 @@ body {
 }
 
 h1 {
-    color: white
+    color: white;
+    font-family: roboto;
 }
 
 h2 {
-    color: white
+    color: white;
+    font-family: Acumin pro thin;
+    font-size: 22px;
 }
 
 h3 {
