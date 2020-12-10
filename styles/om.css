@@ -163,8 +163,8 @@ h1.outline {
     position: absolute;
     top: 500px;
     left: 28px;
-    width: 25vw;
-    height: 25vw;
+    width: 30vw;
+    height: 30vw;
 }
 
 .section_wrapper4 p.sport {
@@ -177,6 +177,14 @@ h1.outline {
     position: absolute;
     top: 440px;
     left: 28px;
+}
+
+.section_wrapper4 img.viljestyrke {
+    position: absolute;
+    top: 700px;
+    left: 28px;
+    width: 30vw;
+    height: 30vw;
 }
 
 .section_wrapper4 p.viljestyrke {
