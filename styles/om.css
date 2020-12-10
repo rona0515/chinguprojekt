@@ -1,26 +1,3 @@
-body {
-    background-color: black;
-}
-
-h1 {
-    color: white;
-    font-family: roboto;
-}
-
-h2 {
-    color: white;
-    font-family: Acumin pro thin;
-    font-size: 22px;
-}
-
-h3 {
-    color: white;
-}
-
-p {
-    color: white
-}
-
 /*logo*/
 nav a img {
     width: 25%;
@@ -33,7 +10,7 @@ nav a {
 */
 
 /*second_section*/
-#first_section {
+#second_section {
     background-image: ;
     background-size: cover;
 
@@ -53,9 +30,10 @@ nav a {
 
 .section_wrapper1 h2 {
     position: absolute;
-    top: 39px;
+    top: 41px;
     left: 28px;
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .section_wrapper1 p {
@@ -65,7 +43,7 @@ nav a {
 }
 
 /*third_section*/
-#second_section {
+#third_section {
     background-image: ;
     background-size: cover;
 
@@ -85,14 +63,15 @@ nav a {
 
 .section_wrapper2 h2 {
     position: absolute;
-    top: 56px;
+    top: 60px;
     left: 28px;
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .section_wrapper2 p {
     position: absolute;
-    top: 97px;
+    top: 95px;
     left: 28px;
 }
 
@@ -112,5 +91,8 @@ h1.outline {
 #fourth_section h2 {
     margin-bottom: 0vw;
     padding-bottom: 0vw;
-    padding-left: 20vw;
+    padding-left: 10vw;
+    text-transform: uppercase;
+    font-family: roboto, thin;
+    color: #b14242;
 }
