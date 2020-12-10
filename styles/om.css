@@ -119,6 +119,14 @@ h1.outline {
     left: 28px;
 }
 
+.section_wrapper4 img.sammenhold {
+    position: absolute;
+    top: 82px;
+    left: 28px;
+    width: 40vw;
+    height: 40vw;
+}
+
 .section_wrapper4 p.sammenhold {
     position: absolute;
     top: 100px;
@@ -137,13 +145,29 @@ h1.outline {
     left: 28px;
 }
 
-.section_wrapper4 h3.sportsånd {
+.section_wrapper4 img.respekt {
+    position: absolute;
+    top: 300px;
+    left: 28px;
+    width: 25vw;
+    height: 25vw;
+}
+
+.section_wrapper4 h3.sport {
     position: absolute;
     top: 320px;
     left: 28px;
 }
 
-.section_wrapper4 p.sportsånd {
+.section_wrapper4 img.sport {
+    position: absolute;
+    top: 500px;
+    left: 28px;
+    width: 25vw;
+    height: 25vw;
+}
+
+.section_wrapper4 p.sport {
     position: absolute;
     top: 340px;
     left: 28px;
