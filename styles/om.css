@@ -19,7 +19,6 @@ nav a {
 /*second_section*/
 .container {
     position: relative;
-    color: white;
 }
 
 .section_wrapper1 h1 {
@@ -28,6 +27,7 @@ nav a {
     left: 28px;
     text-transform: uppercase;
     font-size: 30px;
+    color: #141400
 }
 
 .section_wrapper1 h2 {
@@ -37,12 +37,14 @@ nav a {
     text-transform: uppercase;
     font-size: 20px;
     font-family: Acumin pro thin;
+    color: #141400
 }
 
 .section_wrapper1 p {
     position: absolute;
     top: 82px;
     left: 28px;
+    color: #141400
 }
 
 /*third_section*/
@@ -151,6 +153,7 @@ h1.outline {
     color: #b14242;
     font-size: 50px;
     margin-top: 0vw;
+    color: #e31f1d;
 }
 
 .section_wrapper4 p.chingu {
@@ -165,7 +168,7 @@ h1.outline {
     position: absolute;
     top: 180px;
     left: 180px;
-    color: #b14242;
+    color: #e31f1d;
 }
 
 .section_wrapper4 img.sammenhold {
@@ -190,7 +193,7 @@ h1.outline {
     top: 440px;
     left: 200px;
     text-align: center;
-    color: #b14242;
+    color: #e31f1d;
 }
 
 .section_wrapper4 p.respekt {
@@ -214,7 +217,7 @@ h1.outline {
     top: 680px;
     left: 180px;
     text-align: center;
-    color: #b14242;
+    color: #e31f1d;
 
 }
 
@@ -238,7 +241,7 @@ h1.outline {
     position: absolute;
     top: 1000px;
     left: 185px;
-    color: #b14242;
+    color: #e31f1d;
 }
 
 .section_wrapper4 img.viljestyrke {

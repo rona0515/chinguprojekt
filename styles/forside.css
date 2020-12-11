@@ -8,9 +8,10 @@ nav a img {
 /*second_section*/
 h1 {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 55px;
     position: absolute;
-    left: 38vw;
+    left: 35vw;
+    top: 31vw;
     z-index: 2;
 }
 
@@ -22,9 +23,10 @@ h1.outline {
     margin-top: 0vw;
     padding-top: 0vw;
     padding-left: 10vw;
-    font-size: 40px;
+    font-size: 55px;
     top: 35vw;
-    left: 26vw;
+    left: 20vw;
     z-index: 1;
+
 
 }
