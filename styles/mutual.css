@@ -3,17 +3,18 @@ img {
 }
 
 body {
-    background-color: black;
+    background-color: #141400;
 }
 
 h1 {
     color: white;
-    font-family: roboto;
+    font-family: 'Lalezar', cursive;
 }
 
 h2 {
     color: white;
-    font-family: Acumin pro thin;
+
+    font-family: 'Lalezar', cursive;
     font-size: 22px;
 }
 
@@ -22,5 +23,6 @@ h3 {
 }
 
 p {
-    color: white
+    color: white;
+    font-family: Roboto, Medium
 }

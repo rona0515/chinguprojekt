@@ -1,3 +1,30 @@
 nav a img {
     width: 25%;
 }
+
+/*first_section*/
+
+
+/*second_section*/
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    position: absolute;
+    left: 38vw;
+    z-index: 2;
+}
+
+h1.outline {
+    position: absolute;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px #f8b437;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0vw;
+    padding-top: 0vw;
+    padding-left: 10vw;
+    font-size: 40px;
+    top: 35vw;
+    left: 26vw;
+    z-index: 1;
+
+}
