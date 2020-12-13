@@ -173,14 +173,8 @@ h1.outline {
     top: 100px;
     text-align: center;
     color: #524f4f;
-}
-
-
-.section_wrapper4 h3.sammenhold {
-    position: absolute;
-    top: 180px;
-    left: 180px;
-    color: #e31f1d;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .section_wrapper4 img.sammenhold {
@@ -191,29 +185,23 @@ h1.outline {
     height: 40vw;
 }
 
-.section_wrapper4 p.sammenhold {
+.section_wrapper4 h3.sammenhold {
     position: absolute;
     top: 340px;
-    left: 40px;
+    left: 120px;
     text-align: center;
-    color: black;
+    color: #e31f1d;
 
 }
+
+
 
 .section_wrapper4 h3.respekt {
     position: absolute;
-    top: 440px;
-    left: 200px;
+    top: 580px;
+    left: 100px;
     text-align: center;
     color: #e31f1d;
-}
-
-.section_wrapper4 p.respekt {
-    position: absolute;
-    top: 580px;
-    left: 60px;
-    text-align: center;
-    color: black;
 }
 
 .section_wrapper4 img.respekt {
@@ -224,15 +212,6 @@ h1.outline {
     height: 20vw;
 }
 
-.section_wrapper4 h3.sport {
-    position: absolute;
-    top: 680px;
-    left: 180px;
-    text-align: center;
-    color: #e31f1d;
-
-}
-
 .section_wrapper4 img.sport {
     position: absolute;
     top: 730px;
@@ -241,20 +220,14 @@ h1.outline {
     height: 30vw;
 }
 
-.section_wrapper4 p.sport {
+.section_wrapper4 h3.sport {
     position: absolute;
     top: 870px;
-    left: 50px;
+    left: 120px;
     text-align: center;
-    color: black;
-}
-
-.section_wrapper4 h3.viljestyrke {
-    position: absolute;
-    top: 1000px;
-    left: 185px;
     color: #e31f1d;
 }
+
 
 .section_wrapper4 img.viljestyrke {
     position: absolute;
@@ -264,10 +237,10 @@ h1.outline {
     height: 30vw;
 }
 
-.section_wrapper4 p.viljestyrke {
+.section_wrapper4 h3.viljestyrke {
     position: absolute;
     top: 1200px;
     left: 60px;
     text-align: center;
-    color: black;
+    color: #e31f1d;
 }
