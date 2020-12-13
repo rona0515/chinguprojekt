@@ -251,7 +251,19 @@ footer img {
     width: 25%;
 }
 
-footer p .kickboxing {
-    position: relative;
-    left: 40px;
+footer p.kickboxing {
+    position: absolute;
+    padding-top: 14vw;
+    padding-left: 27vw;
+}
+
+footer p.col1 {
+    position: absolute;
+    padding-top: 44vw;
+}
+
+footer p.col2 {
+    position: absolute;
+    padding: 44vw;
+
 }
