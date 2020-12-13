@@ -23,6 +23,7 @@ nav a {
 
 .section_wrapper1 .img {
     position: relative;
+    z-index: 1;
 }
 
 .section_wrapper1 h1 {
@@ -48,23 +49,25 @@ nav a {
     position: absolute;
     top: 160px;
     left: 28px;
-    color: #141400
+    color: #141400;
 }
 
 /*third_section*/
 .container {
     position: relative;
     color: white;
+
 }
 
 .secrtion_wrapper2 .img {
-    position: relative;
+    position: absolute;
+    z-index: 2;
 }
 
 .section_wrapper2 h1 {
     position: absolute;
     top: -50px;
-    left: 20px;
+    left: 50px;
     text-transform: uppercase;
     font-size: 60px;
     color: #e31f1d;
@@ -72,8 +75,8 @@ nav a {
 
 .section_wrapper2 h2 {
     position: absolute;
-    top: 45px;
-    left: 180px;
+    top: 55px;
+    left: 205px;
     text-transform: uppercase;
     font-size: 20px;
     font-family: Acumin pro thin;
@@ -81,9 +84,8 @@ nav a {
 
 .section_wrapper2 p {
     position: absolute;
-    top: 80px;
+    top: 110px;
     left: 28px;
-    font-size: 20px;
 }
 
 /*fourth_section*/
