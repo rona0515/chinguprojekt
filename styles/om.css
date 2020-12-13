@@ -244,3 +244,14 @@ h1.outline {
     text-align: center;
     color: #e31f1d;
 }
+
+/*footer*/
+footer img {
+    position: absolute;
+    width: 25%;
+}
+
+footer p .kickboxing {
+    position: relative;
+    left: 40px;
+}
