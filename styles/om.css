@@ -249,21 +249,26 @@ h1.outline {
 footer img {
     position: absolute;
     width: 25%;
+    padding-left: 11vw;
 }
 
 footer p.kickboxing {
     position: absolute;
     padding-top: 14vw;
-    padding-left: 27vw;
+    padding-left: 37vw;
 }
 
 footer p.col1 {
     position: absolute;
     padding-top: 44vw;
+    padding-left: 10vw;
+    font-size: 15px;
 }
 
 footer p.col2 {
     position: absolute;
     padding: 44vw;
+    padding-left: 60vw;
+    font-size: 15px;
 
 }
