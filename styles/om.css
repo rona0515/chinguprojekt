@@ -180,7 +180,7 @@ h1.outline {
 .section_wrapper4 img.sammenhold {
     position: absolute;
     top: 200px;
-    left: 140px;
+    left: 130px;
     width: 40vw;
     height: 40vw;
 }
@@ -188,7 +188,7 @@ h1.outline {
 .section_wrapper4 h3.sammenhold {
     position: absolute;
     top: 340px;
-    left: 120px;
+    left: 110px;
     text-align: center;
     color: #e31f1d;
 
@@ -199,7 +199,7 @@ h1.outline {
 .section_wrapper4 h3.respekt {
     position: absolute;
     top: 580px;
-    left: 100px;
+    left: 80px;
     text-align: center;
     color: #e31f1d;
 }
@@ -207,7 +207,7 @@ h1.outline {
 .section_wrapper4 img.respekt {
     position: absolute;
     top: 490px;
-    left: 170px;
+    left: 150px;
     width: 30vw;
     height: 20vw;
 }
@@ -215,7 +215,7 @@ h1.outline {
 .section_wrapper4 img.sport {
     position: absolute;
     top: 730px;
-    left: 190px;
+    left: 155px;
     width: 30vw;
     height: 30vw;
 }
@@ -223,7 +223,7 @@ h1.outline {
 .section_wrapper4 h3.sport {
     position: absolute;
     top: 870px;
-    left: 120px;
+    left: 100px;
     text-align: center;
     color: #e31f1d;
 }
@@ -232,7 +232,7 @@ h1.outline {
 .section_wrapper4 img.viljestyrke {
     position: absolute;
     top: 1050px;
-    left: 180px;
+    left: 160px;
     width: 30vw;
     height: 30vw;
 }
@@ -240,7 +240,7 @@ h1.outline {
 .section_wrapper4 h3.viljestyrke {
     position: absolute;
     top: 1200px;
-    left: 60px;
+    left: 30px;
     text-align: center;
     color: #e31f1d;
 }
@@ -271,4 +271,9 @@ footer p.col2 {
     padding-left: 60vw;
     font-size: 15px;
 
+}
+
+iframe {
+    position: relative;
+    top: 350px;
 }
