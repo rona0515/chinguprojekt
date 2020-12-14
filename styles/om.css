@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-/*logo*/
+/*------------------------------logo*----------------------------------/*/
 nav a img {
     width: 25%;
 }
@@ -12,9 +12,9 @@ nav a img {
 nav a {
     position: absolute;
 }
-*/
 
-/*First_section*/
+
+/*---------------------First_section------------------------*/
 #first_section {
     position: relative;
     max-width: 500px;
@@ -38,7 +38,7 @@ nav a {
     clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
 
-/*second_section*/
+/*------------------------second_section------------------------*/
 
 #second_section {
     padding: 3rem 1rem;
@@ -76,7 +76,7 @@ nav a {
 
 }
 
-/*third_section*/
+/*------------------------third_section------------------------*/
 third_section {
     padding: 3rem 1rem;
 }
@@ -141,7 +141,7 @@ h1.outline {
 
 }
 
-/*snap-scroll*/
+/*------------------------snap-scroll------------------------*/
 .image-container {
     display: flex;
     gap: 20px;
@@ -170,7 +170,7 @@ h1.outline {
 }
 
 
-/*fifth_section*/
+/*------------------------fifth_section------------------------*/
 #fifth_section {
     position: relative;
     max-width: 500px;
@@ -186,7 +186,7 @@ h1.outline {
 }
 
 
-/*second_section*/
+/*------------------------sixth_section------------------------*/
 
 #sixth_section {
     padding: 3rem 1rem;
@@ -284,7 +284,7 @@ h1.outline {
     padding-bottom: 5vw;
 }
 
-/*footer*/
+/*------------------------footer------------------------*/
 footer img {
     position: absolute;
     padding-top: 14vw;
