@@ -90,9 +90,9 @@ third_section {
 }
 
 .section_wrapper2 h2 {
-    position: absolute;
-    padding-left: 45vw;
-    top: 230vw;
+    position: relative;
+    top: -5vw;
+    padding-left: 26vw;
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
@@ -322,72 +322,97 @@ iframe {
 
 /*----------------------desktop version----------------------------*/
 
-@media (min-width:1280px){
+@media (min-width:1280px) {
     nav {
         margin-top: 1vw;
     }
-        nav a {
-    font-size: 30px;
-    margin: 40px;
-    font-family: Acumin pro thin;
-    text-decoration: none;
-    text-align: center;
-    padding-left: 60px;
-    padding-bottom: 20px;
-    margin-top: 1vw;
-}
 
-    a{
+    nav a {
+        font-size: 30px;
+        margin: 40px;
+        font-family: Acumin pro thin;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 60px;
+        padding-bottom: 20px;
+        margin-top: 1vw;
+    }
+
+    a {
         padding-left: 20px;
     }
-a:link {
-    color: red;
-}
 
-a:visited {
-    color: red;
-}
+    a:link {
+        color: red;
+    }
 
-a:hover:hover {
-    color: orange;
-}
+    a:visited {
+        color: red;
+    }
 
-a:active {
-    color: white;
-}
+    a:hover:hover {
+        color: orange;
+    }
+
+    a:active {
+        color: white;
+    }
 
     nav a img {
-    position: absolute;
-    width: 10%;
-    padding-left: 0;
+        position: absolute;
+        width: 10%;
+        padding-left: 0;
     }
 
-#first_section {
-    max-width: 100%;
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
-}
-.red {
-    clip-path: polygon(0 90%, 100% 0, 100% 100%, 0 100%);
-}
-
-.section_wrapper1 h1 {
-    font-size: 60px;
-    text-align: left;
-    padding-left: 20vw;
+    #first_section {
+        max-width: 100%;
+        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     }
 
-.section_wrapper1 h2 {
-    font-size: 30px;
-    text-align: left;
-    }
+    .red {
+        clip-path: polygon(0 90%, 100% 0, 100% 100%, 0 100%);
     }
 
-section_wrapper1 p {
-text-align: center;
-}
+    .section_wrapper1 h1 {
+        font-size: 60px;
+        text-align: left;
+        padding-left: 3vw;
+    }
 
-.section_wrapper1 p {
-    color: #141400;
-    padding: 15px 15px;
+    .section_wrapper1 h2 {
+        font-size: 30px;
+        text-align: left;
+        padding-bottom: 0vw;
+        top: -1vw;
+        padding-left: 3vw;
+    }
 
+    .section_wrapper1 p {
+        padding: 21px 45px;
+        padding-right: 150px;
+        margin-right: 567px;
+
+    }
+
+    .section_wrapper2 h1 {
+        position: absolute font-size: 60px;
+        position: absolute;
+        top: 59vw;
+        left: 53vw;
+    }
+
+    .section_wrapper2 h2 {
+        color: red;
+        font-size: 30px;
+        top: -23vw;
+        padding-left: 54vw;
+    }
+
+    .section_wrapper2 p {
+        color: black;
+        position: absolute;
+        top: 77vw;
+        left: 53vw;
+        padding-right: 50px;
+    }
 }
