@@ -113,7 +113,7 @@ third_section {
     clip-path: polygon(100% 0, 0 25%, 100% 75%);
 }
 
-/*fourth_section*/
+/*------------------------fourth_section------------------------------*/
 #fourth_section {
     padding-bottom: 5vw;
 }
@@ -415,4 +415,159 @@ iframe {
         left: 53vw;
         padding-right: 50px;
     }
+
+    .red2 {
+        top: 97vw;
+        clip-path: polygon(100% 0, 0 33%, 100% 75%);
+    }
+
+    h1.outline {
+
+        font-size: 100px;
+        text-align: center;
+
+    }
+
+    .section_wrapper3 h2 {
+        padding-left: 24vw;
+        padding-top: 0vw;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        font-size: 70px;
+        position: relative;
+        top: 4vw;
+
+    }
+
+    #fifth_section {
+        max-width: 100%;
+        margin: 0 auto;
+        clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+        padding-top: 0;
+    }
+
+    #fifth_section img {
+        width: 100%;
+    }
+
+    .section_wrapper4 h1 {
+        font-size: 80px;
+    }
+
+    .section_wrapper4 h2 {
+        font-size: 30px;
+        top: 3vw;
+    }
+
+    .section_wrapper4 p.chingu {
+        font-size: 20px;
+    }
+
+    .section_wrapper4 h3.sammenhold {
+        font-size: 18px;
+        position: absolute;
+        top: 285vw;
+        left: 5vw;
+    }
+
+
+    .section_wrapper4 h3.respekt {
+        font-size: 18px;
+        position: absolute;
+        top: 285vw;
+        left: 27vw;
+    }
+
+    .section_wrapper4 h3.sport {
+        font-size: 18px;
+        top: 18.5vw;
+        position: relative;
+        position: relative;
+        left: 10vw;
+    }
+
+    .section_wrapper4 h3.viljestyrke {
+        font-size: 18px;
+        top: 7vw;
+        position: relative;
+        left: 34vw;
+        padding-bottom: 11vw;
+
+    }
+
+    .section_wrapper4 img.sammenhold {
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+        margin-left: 2vw;
+    }
+
+    .section_wrapper4 img.respekt {
+        position: absolute;
+        width: 15vw;
+        ;
+        height: 10vw;
+        margin-left: 29vw;
+        margin-top: 5vw;
+
+    }
+
+    .section_wrapper4 img.sport {
+        position: absolute;
+        width: 15vw;
+        ;
+        height: 15vw;
+
+        margin-left: 51vw;
+        margin-top: 3vw;
+    }
+
+    .section_wrapper4 img.viljestyrke {
+        position: absolute;
+        width: 15vw;
+        ;
+        height: 15vw;
+
+        margin-left: 76vw;
+        margin-top: -9vw;
+    }
+
+    footer img {
+        position: absolute;
+        padding-top: 7vw;
+        width: 20%;
+        padding-left: 11vw;
+    }
+
+    footer p.kickboxing {
+        position: absolute;
+        padding-top: 10vw;
+        padding-left: 22vw;
+        font-size: 25px;
+        padding-right: 0vw;
+        margin-right: 0vw;
+    }
+
+   footer p.col1 {
+    position: absolute;
+    padding-top: 11vw;
+    padding-left: 51vw;
+    font-size: 16px;
+}
+
+    footer p.col2 {
+        position: relative;
+        padding-top: 11vw;
+        padding-left: 69vw;
+        font-size: 15px;
+        padding-right: 0vw;
+
+    }
+iframe {
+    width: 100%;
+position: absolute;
+top: 310vw;
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
+}
 }
