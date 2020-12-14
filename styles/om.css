@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 /*logo*/
 nav a img {
     width: 25%;
@@ -11,102 +16,105 @@ nav a {
 
 /*First_section*/
 #first_section {
-    background-image: ;
-    background-size: cover;
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+}
 
+#first_section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.red {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background: red;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
 
 /*second_section*/
-.container {
-    position: relative;
-}
 
-.section_wrapper1 .img {
-    position: relative;
-    z-index: 1;
+#second_section {
+    padding: 3rem 1rem;
+    background: white;
+    clip-path:
+        polygon(0 0, 100% 3rem, 100% calc(100% - 3rem), 0 100%);
+    margin: -3rem 0;
 }
 
 .section_wrapper1 h1 {
-    position: absolute;
-    top: 30px;
-    left: 110px;
     text-transform: uppercase;
     font-size: 40px;
     color: #141400;
+    left 50px;
 }
 
 .section_wrapper1 h2 {
-    position: absolute;
-    top: 100px;
-    left: 160px;
     text-transform: uppercase;
     font-size: 20px;
     font-family: Acumin pro thin;
-    color: #141400
-}
-
-.section_wrapper1 p {
-    position: absolute;
-    top: 160px;
-    left: 28px;
     color: #141400;
 }
 
-/*third_section*/
-.container {
-    position: relative;
-    color: white;
+.section_wrapper1 p {
+    color: #141400;
 
 }
 
-.secrtion_wrapper2 .img {
-    position: absolute;
-    z-index: 2;
+/*third_section*/
+third_section {
+    padding: 3rem 1rem;
 }
 
 .section_wrapper2 h1 {
-    position: absolute;
-    top: -50px;
-    left: 50px;
+    padding: 10vw;
     text-transform: uppercase;
     font-size: 60px;
     color: #e31f1d;
 }
 
 .section_wrapper2 h2 {
-    position: absolute;
-    top: 55px;
-    left: 205px;
     text-transform: uppercase;
     font-size: 20px;
     font-family: Acumin pro thin;
 }
 
 .section_wrapper2 p {
+    padding-bottom: 5vw;
+}
+
+.red2 {
     position: absolute;
-    top: 110px;
-    left: 28px;
+    bottom: 1;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background: red;
+    clip-path: polygon(0 25%, 100% 50%, 100% 0);
 }
 
 /*fourth_section*/
+#fourth_section {
+    padding-bottom: 10vw;
+}
 
 h1.outline {
-
     text-transform: uppercase;
     font-size: 30px;
     -webkit-text-stroke: 1.5px white;
     -webkit-text-fill-color: transparent;
     margin-top: 0vw;
-    padding-top: 10vw;
-    padding-left: 10vw;
     font-size: 45px;
 }
 
-#fourth_section h2 {
-    position: absolute;
-    margin-bottom: 0vw;
-    padding-bottom: 0vw;
-    padding-left: 10vw;
+.section_wrapper3 h2 {
+    padding-top: 20vw;
     text-transform: uppercase;
     font-size: 30px;
     color: #e31f1d;
@@ -142,24 +150,37 @@ h1.outline {
 
 
 /*fifth_section*/
-.container {
+#fifth_section {
     position: relative;
-    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+}
+
+#fifth_section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/*second_section*/
+
+#sixth_section {
+    padding: 3rem 1rem;
+    background: white;
+    clip-path:
+        polygon(0 0, 100% 3rem, 100% calc(100% - 3rem), 0 100%);
+    margin: -6rem 0;
 }
 
 .section_wrapper4 h2 {
-    position: absolute;
-    top: 20px;
-    left: 180px;
     text-transform: uppercase;
     color: black;
     margin-bottom: 0vw;
 }
 
 .section_wrapper4 h1 {
-    position: absolute;
-    top: 51px;
-    left: 120px;
     text-transform: uppercase;
     font-size: 20px;
     color: #b14242;
@@ -169,8 +190,7 @@ h1.outline {
 }
 
 .section_wrapper4 p.chingu {
-    position: absolute;
-    top: 100px;
+
     text-align: center;
     color: #524f4f;
     padding-left: 30px;
@@ -178,69 +198,58 @@ h1.outline {
 }
 
 .section_wrapper4 img.sammenhold {
-    position: absolute;
-    top: 200px;
-    left: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 40vw;
     height: 40vw;
 }
 
 .section_wrapper4 h3.sammenhold {
-    position: absolute;
-    top: 340px;
-    left: 110px;
     text-align: center;
     color: #e31f1d;
-
+    padding-bottom: 10vw;
+    padding-top: 0vw;
 }
 
-
-
 .section_wrapper4 h3.respekt {
-    position: absolute;
-    top: 580px;
-    left: 80px;
     text-align: center;
     color: #e31f1d;
+    padding-bottom: 10vw;
 }
 
 .section_wrapper4 img.respekt {
-    position: absolute;
-    top: 490px;
-    left: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30vw;
     height: 20vw;
 }
 
 .section_wrapper4 img.sport {
-    position: absolute;
-    top: 730px;
-    left: 155px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30vw;
     height: 30vw;
 }
 
 .section_wrapper4 h3.sport {
-    position: absolute;
-    top: 870px;
-    left: 100px;
     text-align: center;
     color: #e31f1d;
+    padding-bottom: 10vw;
 }
 
 
 .section_wrapper4 img.viljestyrke {
-    position: absolute;
-    top: 1050px;
-    left: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 30vw;
     height: 30vw;
 }
 
 .section_wrapper4 h3.viljestyrke {
-    position: absolute;
-    top: 1200px;
-    left: 30px;
     text-align: center;
     color: #e31f1d;
 }
@@ -248,13 +257,14 @@ h1.outline {
 /*footer*/
 footer img {
     position: absolute;
-    width: 25%;
+    padding-top: 10vw;
+    width: 35%;
     padding-left: 11vw;
 }
 
 footer p.kickboxing {
     position: absolute;
-    padding-top: 14vw;
+    padding-top: 20vw;
     padding-left: 37vw;
 }
 
@@ -274,6 +284,8 @@ footer p.col2 {
 }
 
 iframe {
+    width: 100%;
+    width: 100%;
     position: relative;
     top: 350px;
 }
