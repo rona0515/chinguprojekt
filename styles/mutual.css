@@ -66,6 +66,7 @@ img {
 
 body {
     background-color: #141400;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -203,3 +204,4 @@ iframe {
         width: 10%;
         padding-left: 0;
     }
+}
