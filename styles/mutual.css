@@ -24,6 +24,12 @@ h3 {
     font-family: 'Lalezar', cursive;
 }
 
+h4 {
+    color: white;
+    font-family: Roboto, Medium;
+    font-weight: 500;
+}
+
 p {
     color: white;
     font-family: Roboto, Medium;

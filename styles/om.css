@@ -27,19 +27,9 @@
     list-style: none;
     transition: transform 0.3s;
     transform-origin: top right;
+
 }
 
-@media (min-width:600px) {
-
-    #menuknap {
-        display: none;
-    }
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
 
 /*------------------------------logo*----------------------------------/*/
 a img {
@@ -55,7 +45,6 @@ a img {
 }
 
 #menu {
-    background-color: white;
     background: rgb(255, 255, 255);
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 23%, rgba(255, 255, 255, 1) 100%);
 }
@@ -396,6 +385,23 @@ iframe {
 
 /*----------------------desktop version----------------------------*/
 
+@media (min-width:600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu {
+        background-color: none;
+        background: none;
+    }
+}
+
 @media (min-width:1280px) {
     nav {
         margin-top: 1vw;
@@ -502,14 +508,14 @@ iframe {
     .section_wrapper2 p {
         color: black;
         position: absolute;
-        top: 73vw;
+        top: 72vw;
         left: 53vw;
         padding-right: 50px;
     }
 
     .red2 {
-        top: 94vw;
-        clip-path: polygon(100% 0, 0px 30%, 100% 75%);
+        top: 92vw;
+        clip-path: polygon(100% 0, 0px 35%, 100% 75%);
     }
 
     h1.outline {
@@ -571,7 +577,7 @@ iframe {
 
     .section_wrapper4 h3.sport {
         font-size: 18px;
-        top: 18.5vw;
+        top: 19.5vw;
         position: relative;
         position: relative;
         left: 10vw;
@@ -579,7 +585,7 @@ iframe {
 
     .section_wrapper4 h3.viljestyrke {
         font-size: 18px;
-        top: 7vw;
+        top: 7.5vw;
         position: relative;
         left: 34vw;
         padding-bottom: 11vw;
