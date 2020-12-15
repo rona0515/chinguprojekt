@@ -44,8 +44,10 @@
 /*------------------------------logo*----------------------------------/*/
 a img {
     position: absolute;
-    width: 25%;
+    width: 12.5%;
     z-index: 2;
+    top: 2vw;
+    left: 2vw;
 }
 
 #menuknap {
