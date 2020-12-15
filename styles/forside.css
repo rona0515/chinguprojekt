@@ -204,3 +204,77 @@ h2 {
     margin-left: 30vw;
     margin-right: 30vw;
 }
+
+/*------------------------------website version---------------------------*/
+
+@media (min-width:600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu {
+        background-color: none;
+        background: none;
+    }
+}
+
+@media (min-width:1280px) {
+    nav {
+        margin-top: 3vw;
+    }
+
+    #menu {
+        flex-direction: row;
+        top: -1vw;
+        left: 10vw;
+
+    }
+
+    li {
+        float: left;
+    }
+
+
+    nav a {
+        font-size: 30px;
+        margin: 40px;
+        font-family: Acumin pro thin;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 60px;
+        padding-bottom: 20px;
+        margin-top: 1vw;
+    }
+
+    a {
+        display: block;
+        padding-left: 5px;
+    }
+
+    a:link {
+        color: #e31f1d;
+    }
+
+    a:visited {
+        color: #e31f1d;
+    }
+
+    a:hover:hover {
+        color: orange;
+    }
+
+    a:active {
+        color: white;
+    }
+
+    nav a img {
+        position: absolute;
+        width: 10%;
+        padding-left: 0;
+    }
