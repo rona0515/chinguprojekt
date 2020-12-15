@@ -11,7 +11,7 @@ header {
 	height: 30vh;
 }
 
-a img {
+header a img {
 	position: absolute;
 	top: 2vw;
 	left: 2vw;
@@ -56,6 +56,9 @@ section:nth-of-type(4) img {
 #trekant {
 	position: absolute;
 	background: #E3201D;
+	clip-path: polygon(0 0, 0 11%, 100% 0);
+	margin: 20% 0 20% 0;
+	height: 400px;
 
 }
 
@@ -101,8 +104,9 @@ button {
 
 /* Footer */
 
-
-
+footer {
+	margin-top: 200px;
+}
 
 footer img {
 	position: absolute;
@@ -138,4 +142,8 @@ footer p.col2 {
 
 iframe {
 	width: 100%;
+	position: absolute;
+	top: 430vw;
+	margin-bottom: 0vw;
+	padding-bottom: 0vw;
 }
