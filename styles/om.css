@@ -3,9 +3,41 @@
     margin: 0;
 }
 
+/*------------------------------Burgermenu*----------------------------------/*/
+.hidden {
+    opacity: 0;
+    transform: translateX(100%)
+}
+
+#menuknap {
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    top: 2vw;
+    left: 90vw;
+    font-size: 30px;
+}
+
+#menu {
+    position: absolute;
+    z-index: 2;
+    text-align: right;
+    top: 13vw;
+    left: 57vw;
+    list-style: none;
+    transition: transform 0.3s;
+    transform-origin: top right;
+}
+
 /*------------------------------logo*----------------------------------/*/
-nav a img {
+a img {
+    position: absolute;
     width: 25%;
+    z-index: 2;
+}
+
+#menuknap {
+    color: white;
 }
 
 /*
