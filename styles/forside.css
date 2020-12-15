@@ -147,7 +147,7 @@ h2 {
     margin: -3rem 0;
 }
 
-.section_wrapper4 h1 {
+.section_wrapper5 h1 {
     text-transform: uppercase;
     font-size: 40px;
     color: #141400;
@@ -159,7 +159,7 @@ h2 {
 
 }
 
-.section_wrapper4 h2 {
+.section_wrapper5 h2 {
     text-transform: uppercase;
     color: #f39200;
     font-size: 20px;
@@ -168,13 +168,13 @@ h2 {
     top: 5vw;
 }
 
-.section_wrapper4 p {
+.section_wrapper5 p {
     color: #141400;
     padding: 15px 15px;
 
 }
 
-.section_wrapper4 p.om {
+.section_wrapper5 p.om {
     color: white;
     background-color: #e31f1d;
     text-align: center;
@@ -188,16 +188,16 @@ h2 {
 }
 
 
-.section_wrapper5 h2 {
+.section_wrapper6 h2 {
     color: #141400;
 }
 
-.section_wrapper5 p {
+.section_wrapper6 p {
     text-align: center;
     padding: 15px 15px;
 }
 
-.section_wrapper5 p.hold {
+.section_wrapper6 p.hold {
     color: white;
     background-color: #141400;
     text-align: center;
@@ -277,4 +277,188 @@ h2 {
         position: absolute;
         width: 10%;
         padding-left: 0;
+    }
+
+    h1 {
+        font-size: 75px;
+        padding-top: 4vw;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        color: #f39200;
+        text-align: center;
+        position: relative;
+        top: -2vw;
+    }
+
+    .white1 {
+        width: 100%;
+        height: 80%;
+        clip-path: polygon(50% 0px, 0% 100%, 0px 0);
+    }
+
+    .white2 {
+        width: 100%;
+        height: 80%;
+        clip-path: polygon(50% 0px, 50% 100%, 0 0);
+        position: absolute;
+        padding-left: 0vw;
+        top: -336px;
+        left: 720px;
+    }
+
+    .section_wrapper3 img {
+        width: 40%;
+        position: absolute;
+        top: 3vw;
+        left: 109px;
+
+    }
+
+    .section_wrapper4 img {
+        width: 40%;
+        position: absolute;
+        top: -20.5vw;
+        left: 53vw;
+    }
+
+    .section_wrapper3 h3 {
+        position: relative;
+        top: 21vw;
+        left: 5vw;
+        font-size: 30px;
+    }
+
+    .section_wrapper4 h3 {
+        position: relative;
+        top: -2vw;
+        left: 10vw;
+        font-size: 30px;
+    }
+
+    .section_wrapper5 img {
+        width: 120%;
+
+    }
+
+    .section_wrapper5 {
+        padding: 15px 15px;
+        padding-right: 155px;
+        padding-right: 58vw;
+
+    }
+
+    .section_wrapper5 p {
+        position: relative;
+        left: 4vw;
+    }
+
+    .section_wrapper5 p.om {
+        margin-left: 14vw;
+        margin-right: 15vw;
+    }
+
+    .section_wrapper5 h1 {
+        top: 0.5vw;
+        padding-top: 0vw;
+    }
+
+    .section_wrapper5 h2 {
+        position: absolute;
+        top: 133vw;
+        left: 19vw;
+    }
+
+    .section_wrapper6 img {
+        position: absolute;
+        width: 39%;
+        top: 137.5vw;
+        left: 57vw;
+
+    }
+
+    .section_wrapper6 {
+        padding: 15px 15px;
+        padding-right: 155px;
+        padding-right: 58vw;
+    }
+
+    .section_wrapper6 p.medlem {
+        position: absolute;
+        margin-left: 7vw;
+        margin-right: 2vw;
+    }
+
+    .section_wrapper6 p {
+        text-align: center;
+        padding: 15px 15px;
+        top: 164vw;
+        color: #141400;
+        left: 48vw;
+    }
+
+    .section_wrapper6 p.hold {
+        position: absolute;
+        top: 170vw;
+        margin-right: 15vw;
+        margin-left: 15vw;
+        left: 57vw;
+    }
+
+    .section_wrapper6 h1 {
+        position: absolute;
+        font-size: 40px;
+        top: 130vw;
+        color: #f39200;
+        left: 68vw;
+
+    }
+
+    .section_wrapper6 h2 {
+        position: absolute;
+        top: 133vw;
+        left: 70vw;
+    }
+
+    footer img {
+        position: absolute;
+        padding-top: 7vw;
+        width: 20%;
+        padding-left: 11vw;
+    }
+
+    footer p.kickboxing {
+        position: absolute;
+        padding-top: 10vw;
+        padding-left: 22vw;
+        font-size: 25px;
+        padding-right: 0vw;
+        margin-right: 0vw;
+    }
+
+    footer p.col1 {
+        position: absolute;
+        padding-top: 11vw;
+        padding-left: 51vw;
+        font-size: 16px;
+    }
+
+    footer p.col2 {
+        position: relative;
+        padding-top: 11vw;
+        padding-left: 69vw;
+        font-size: 15px;
+        padding-right: 0vw;
+
+    }
+
+    iframe {
+        position: relative;
+        top: 0vw;
+        width: 100%;
+        position: relative;
+        top: -55vw;
+        margin-bottom: -40vw;
+        padding-bottom: 0vw;
     }
