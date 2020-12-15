@@ -7,8 +7,11 @@ body {
     margin: 0;
 }
 
+a img {
+    position: relative;
+}
 
-@media (max-width: 550px) {
+@media (max-width: 1250px) {
 
     h2 {
         background-color: #e31f1d;
@@ -27,25 +30,37 @@ body {
 }
 
 .section_wrapper1 {
-    background-color: aqua;
+    background-color: #f39200;
     text-align: center;
 }
 
 /*------------------------------second_section----------------------------------/*/
 #second_section {
     position: relative;
-    padding: 20px;
+    padding: 10vw;
 
 }
 
 .section_wrapper2 {
-    background-color: red;
+    background-color: #f39200;
 }
 
 h2 {
     background-color: #e31f1d;
 
 }
+
+.red2 {
+    position: absolute;
+    background-color: #e31f1d;
+    clip-path: polygon(0 0, 0 30%, 100% 45%, 100% 14%);
+    width: 90%;
+    height: 36%;
+    z-index: -1;
+    top: 43px;
+    left: 0px;
+}
+
 
 .white {
     position: absolute;
@@ -61,35 +76,55 @@ h2 {
 /*------------------------------third_section----------------------------------/*/
 #third_section {
     position: relative;
-    padding: 20px;
+    padding: 10vw;
 
 }
 
 .section_wrapper3 {
-    background-color: greenyellow;
+    background-color: #f39200;
 }
 
+.red3 {
+    position: absolute;
+    background-color: #e31f1d;
+    clip-path: polygon(0 0, 0 30%, 100% 45%, 100% 14%);
+    width: 90%;
+    height: 36%;
+    z-index: -1;
+    top: 43px;
+    left: 0px;
+}
 /*------------------------------fourth_section----------------------------------/*/
 #fourth_section {
     position: relative;
-    padding: 20px;
+    padding: 10vw;
 
 }
 
 .section_wrapper4 {
-    background-color: skyblue;
+    background-color: #f39200;
 }
 
+.red4 {
+    position: absolute;
+    background-color: #e31f1d;
+    clip-path: polygon(0 0, 0 30%, 100% 45%, 100% 14%);
+    width: 90%;
+    height: 36%;
+    z-index: -1;
+    top: 43px;
+    left: 0px;
+}
 /*------------------------------fifth_section----------------------------------/*/
 #fifth_section {
     position: relative;
-    padding: 20px;
-
+    padding: 10vw;
 }
 
 .section_wrapper5 {
-    background-color: orange;
+    background-color: #f39200;
 }
+
 
 .white2 {
     position: absolute;
@@ -99,5 +134,16 @@ h2 {
     z-index: -1;
     clip-path: polygon(100% 100%, 0% 100%, 0 0);
     top: 79px;
+    left: 0px;
+}
+
+.red5 {
+    position: absolute;
+    background-color: #e31f1d;
+    clip-path: polygon(0 0, 0 30%, 100% 45%, 100% 14%);
+    width: 90%;
+    height: 36%;
+    z-index: -1;
+    top: 43px;
     left: 0px;
 }
