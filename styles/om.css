@@ -29,6 +29,18 @@
     transform-origin: top right;
 }
 
+@media (min-width:600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 /*------------------------------logo*----------------------------------/*/
 a img {
     position: absolute;
@@ -357,6 +369,10 @@ iframe {
 @media (min-width:1280px) {
     nav {
         margin-top: 1vw;
+    }
+
+    #menu {
+        flex-direction: row;
     }
 
     nav a {
