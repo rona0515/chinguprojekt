@@ -73,7 +73,7 @@ a:active {
     left: 0;
     height: 20%;
     width: 100%;
-    background: red;
+    background: #e31f1d;
     clip-path: polygon(0% 50px, 0px 5%, 100% 15%);
 }
 
@@ -172,4 +172,35 @@ h2 {
     color: #141400;
     padding: 15px 15px;
 
+}
+
+.section_wrapper4 p.om {
+    color: white;
+    background-color: #e31f1d;
+    text-align: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+
+#sixth_section {
+    background-color: #e31f1d;
+
+}
+
+
+.section_wrapper5 h2 {
+    color: #141400;
+}
+
+.section_wrapper5 p {
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.section_wrapper5 p.hold {
+    color: white;
+    background-color: #141400;
+    text-align: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
 }
