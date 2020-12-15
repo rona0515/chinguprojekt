@@ -138,3 +138,38 @@ h2 {
     margin-left: 0vw;
     color: #f39200;
 }
+
+#fifth_section {
+    padding: 3rem 1rem;
+    background: white;
+    clip-path:
+        polygon(0 0, 100% 3rem, 100% calc(100% - 3rem), 0 100%);
+    margin: -3rem 0;
+}
+
+.section_wrapper4 h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #141400;
+    left 50px;
+    text-align: center;
+    padding-bottom: 0;
+    position: relative;
+    top: -5vw;
+
+}
+
+.section_wrapper4 h2 {
+    text-transform: uppercase;
+    color: #f39200;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 5vw;
+}
+
+.section_wrapper4 p {
+    color: #141400;
+    padding: 15px 15px;
+
+}
