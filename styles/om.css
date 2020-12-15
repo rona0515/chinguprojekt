@@ -61,6 +61,10 @@ nav a {
 
 
 /*---------------------First_section------------------------*/
+p {
+    padding: 30px 30px;
+}
+
 #first_section {
     position: relative;
     max-width: 500px;
