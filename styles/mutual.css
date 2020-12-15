@@ -36,6 +36,41 @@ p {
     font-size: 18px;
 }
 
+footer img {
+    position: absolute;
+    padding-top: 14vw;
+    width: 35%;
+    padding-left: 11vw;
+}
+
+footer p.kickboxing {
+    position: absolute;
+    padding-top: 25vw;
+    padding-left: 37vw;
+}
+
+footer p.col1 {
+    position: absolute;
+    padding-top: 50vw;
+    padding-left: 10vw;
+    font-size: 15px;
+}
+
+footer p.col2 {
+    position: absolute;
+    padding: 44vw;
+    padding-left: 60vw;
+    font-size: 15px;
+
+}
+
+iframe {
+    width: 100%;
+    width: 100%;
+    position: relative;
+    top: 350px;
+}
+
 @media (min-width:600px) {
 
     #menuknap {
@@ -106,39 +141,4 @@ p {
         position: absolute;
         width: 10%;
         padding-left: 0;
-    }
-
-    footer img {
-        position: absolute;
-        padding-top: 14vw;
-        width: 35%;
-        padding-left: 11vw;
-    }
-
-    footer p.kickboxing {
-        position: absolute;
-        padding-top: 25vw;
-        padding-left: 37vw;
-    }
-
-    footer p.col1 {
-        position: absolute;
-        padding-top: 50vw;
-        padding-left: 10vw;
-        font-size: 15px;
-    }
-
-    footer p.col2 {
-        position: absolute;
-        padding: 44vw;
-        padding-left: 60vw;
-        font-size: 15px;
-
-    }
-
-    iframe {
-        width: 100%;
-        width: 100%;
-        position: relative;
-        top: 350px;
     }
