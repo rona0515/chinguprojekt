@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Om os</title>
+	<title>Kontakt</title>
 	<link rel="stylesheet" href="styles/mutual.css">
 	<link rel="stylesheet" href="/styles/kontakt.css">
 
@@ -12,6 +12,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
 
@@ -59,26 +60,22 @@
 
 
 
-			<form action="action_page.php">
+			<form name="kontakt" netlify>
+				<label for="full-name">Fulde navn</label>
+				<input placeholder="fx Pernille Strate" id="full-name" name="fname" type="text" required>
 
-				<label for="fname">First Name</label>
-				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				<label for="email">Din e-mail</label>
+				<input placeholder="fx rkorkmaz001@gmail.com" id="email" name="email" type="email" required>
 
-				<label for="lname">Last Name</label>
-				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				<div class="form-fekt">
+					<label>
+						Besked
+						<textarea placeholder="Skriv din besked her..." name="besked" rows="10"></textarea>
 
-				<label for="country">Country</label>
-				<select id="country" name="country">
-					<option value="australia">Australia</option>
-					<option value="canada">Canada</option>
-					<option value="usa">USA</option>
-				</select>
+					</label>
 
-				<label for="subject">Subject</label>
-				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-				<input type="submit" value="Submit">
-
+				</div>
+				<button>Send mail</button>
 			</form>
 
 
