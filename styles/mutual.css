@@ -160,6 +160,8 @@ iframe {
         flex-direction: row;
         top: -1vw;
         left: 23vw;
+        background-color: none;
+        background: none;
 
     }
 
