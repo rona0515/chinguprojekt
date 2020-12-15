@@ -9,24 +9,26 @@ nav a img {
 h1 {
     text-transform: uppercase;
     font-size: 55px;
-    position: absolute;
-    left: 35vw;
-    top: 31vw;
-    z-index: 2;
+    text-align: center;
+    padding-bottom: 0vw;
 }
 
-h1.outline {
-    position: absolute;
+h2 {
+    padding-top: 52vw;
     text-transform: uppercase;
-    -webkit-text-stroke: 2px #f8b437;
-    -webkit-text-fill-color: transparent;
-    margin-top: 0vw;
-    padding-top: 0vw;
-    padding-left: 10vw;
-    font-size: 55px;
-    top: 35vw;
-    left: 20vw;
-    z-index: 1;
+    color: #f39200;
+    text-align: center;
+    position: absolute;
+    top: 0vw;
+    padding-left: 16vw;
+}
 
-
+.red2 {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    height: 20%;
+    width: 100%;
+    background: red;
+    clip-path: polygon(100% 0%, 0% 0, 0 56%);
 }
