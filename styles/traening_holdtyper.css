@@ -5,7 +5,6 @@
 
 body {
     margin: 0;
-    padding: 0;
 }
 
 
@@ -35,36 +34,34 @@ body {
 /*------------------------------second_section----------------------------------/*/
 #second_section {
     position: relative;
-    padding-left: 20px;
+    padding: 20px;
+
 }
 
 .section_wrapper2 {
     background-color: red;
-    padding-right: 5px;
-     z-index: 2;
 }
 
 h2 {
     background-color: #e31f1d;
+
 }
 
 .white {
     position: absolute;
     background-color: white;
     width: 100%;
-    height: 20%;
-    z-index: 1;
+    height: 80%;
+    z-index: -1;
     clip-path: polygon(100% 0, 0% 100%, 0 0);
     top: 0px;
     left: 0px;
-
-
 }
 
 /*------------------------------third_section----------------------------------/*/
 #third_section {
     position: relative;
-    padding-left: 20px;
+    padding: 20px;
 
 }
 
@@ -75,7 +72,7 @@ h2 {
 /*------------------------------fourth_section----------------------------------/*/
 #fourth_section {
     position: relative;
-    padding-left: 20px;
+    padding: 20px;
 
 }
 
@@ -86,10 +83,21 @@ h2 {
 /*------------------------------fifth_section----------------------------------/*/
 #fifth_section {
     position: relative;
-    padding-left: 20px;
+    padding: 20px;
 
 }
 
 .section_wrapper5 {
     background-color: orange;
+}
+
+.white2 {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    clip-path: polygon(100% 100%, 0% 100%, 0 0);
+    top: 79px;
+    left: 0px;
 }

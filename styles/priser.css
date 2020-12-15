@@ -1,57 +1,51 @@
-html,
-body {
+* {
+	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
 }
 
-.cus-div {
-	width: 100%;
-	position: relative;
-}
-
-#skew1 {
-	background: url(/Billeder/priser_img/boernehold_full.JPG);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-	z-index: 10;
-}
-
-#skew2 {
-	background: #E3201D;
-	z-index: 9;
-}
-
-#skew3 {
+body {
 	background: #141400;
-	z-index: 8;
 }
 
-#skew4 {
-	background: #456585;
-	z-index: 7;
+header {
+	height: 30vh;
 }
 
-.cus-div:after {
+a img {
 	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: inherit;
-	z-index: -1;
-	bottom: 0;
-	content: '';
+	top: 2vw;
+	left: 2vw;
+	width: 12.5%;
 }
 
-#skew1:after,
-#skew2:after,
-#skew4:after {
-	transform-origin: left bottom;
-	transform: skewY(3deg);
+section {
+	display: grid;
+	place-items: center;
+	color: #fff;
+	min-height: 50vh;
 }
 
-#skew3:after {
-	transform-origin: right bottom;
-	transform: skewY(-3deg);
+
+section .copy {
+	max-width: 60ch;
+}
+
+section:nth-of-type(1) {
+	margin-top: -48px;
+	background: url(/Billeder/cropped_WEB/priser_01.jpg);
+	background-size: cover;
+	background-position: 50% 0%;
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 89%);
+}
+
+
+section:nth-of-type(2),
+section:nth-of-type(4) {
+	background-image: url('https://images.unsplash.com/photo-1606015217550-8c425c56dd39?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=85');
+	background-size: cover;
+	background-position: 50% 100%;
+	clip-path:
+		polygon(0 48px, 100% 0, 100% 100%, 0 calc(100% - 48px));
 }
 
 .content {
@@ -60,4 +54,9 @@ body {
 	overflow: hidden;
 	display: block;
 	height: auto;
-}
+
+	section:last-of-type {
+		background-image: url('https://images.unsplash.com/photo-1606125784258-570fc63c22c1?crop=entropy&cs=srgb&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=85');
+		clip-path:
+			polygon(0 48px, 100% 0, 100% 100%, 0 100%);
+	}
