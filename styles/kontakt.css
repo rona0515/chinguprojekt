@@ -193,43 +193,41 @@ button {
 /* Footer */
 
 footer img {
-    position: absolute;
-    padding-top: 7vw;
-    width: 20%;
-    padding-left: 11vw;
-}
+        position: absolute;
+        padding-top: 7vw;
+        width: 20%;
+        padding-left: 11vw;
+    }
 
-footer p.kickboxing {
-    position: absolute;
-    padding-top: 10vw;
-    padding-left: 22vw;
-    font-size: 25px;
-    padding-right: 0vw;
-    margin-right: 0vw;
-}
+    footer p.kickboxing {
+        position: absolute;
+        padding-top: 10vw;
+        padding-left: 22vw;
+        font-size: 25px;
+        padding-right: 0vw;
+        margin-right: 0vw;
+    }
 
-footer p.col1 {
-    position: absolute;
-    padding-top: 11vw;
-    padding-left: 51vw;
-    font-size: 16px;
-}
+    footer p.col1 {
+        position: absolute;
+        padding-top: 11vw;
+        padding-left: 51vw;
+        font-size: 16px;
+    }
 
-footer p.col2 {
-    position: relative;
-    padding-top: 11vw;
-    padding-left: 69vw;
-    font-size: 15px;
-    padding-right: 0vw;
+    footer p.col2 {
+        position: relative;
+        padding-top: 11vw;
+        padding-left: 69vw;
+        font-size: 15px;
+        padding-right: 0vw;
 
-}
+    }
 
-iframe {
-    position: relative;
-    top: 0vw;
-    width: 100%;
-    position: relative;
-    top: -50vw;
-    margin-bottom: -40vw;
-    padding-bottom: 0vw;
-}
+    iframe {
+        width: 100%;
+        position: absolute;
+        top: 370vw;
+        margin-bottom: 0vw;
+        padding-bottom: 0vw;
+    }
