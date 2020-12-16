@@ -85,26 +85,30 @@ nav a {
 
 /*---------------------First_section------------------------*/
 
-/*
 #section {
     position: relative;
     width: 100%;
-    margin: 0 auto;
+    margin-top: 0;
+    padding-top: 0;
 }
-*/
 
-/*
-#video_intro {
-    height: 30vh;
-    width: 100vh;
-    object-fit: cover;
-}
-*/
 #video_om {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
+    position: relative;
+    top: -5vw;
 }
+
+/*
+#video_om {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: -5vw;
+}
+*/
 
 p {
     padding: 30px 30px;
@@ -124,6 +128,7 @@ p {
     display: block;
 }
 
+/*
 .red {
     z-index: 2 position: absolute;
     bottom: 0;
@@ -133,6 +138,7 @@ p {
     background: red;
     clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 100%);
 }
+*/
 
 /*------------------------second_section------------------------*/
 
@@ -518,6 +524,7 @@ iframe {
         padding: 21px 45px;
         padding-right: 150px;
         margin-right: 567px;
+        padding-bottom: 4vw;
 
     }
 
@@ -528,27 +535,27 @@ iframe {
     .section_wrapper2 h1 {
         position: absolute font-size: 60px;
         position: absolute;
-        top: 51vw;
+        top: 53vw;
         left: 53vw;
     }
 
     .section_wrapper2 h2 {
         color: red;
         font-size: 30px;
-        top: -25vw;
+        top: -27vw;
         padding-left: 54vw;
     }
 
     .section_wrapper2 p {
         color: black;
         position: absolute;
-        top: 69vw;
+        top: 71vw;
         left: 53vw;
         padding-right: 50px;
     }
 
     .red2 {
-        top: 89vw;
+        top: 93vw;
         clip-path: polygon(100% 0, 0px 35%, 100% 75%);
     }
 
@@ -605,7 +612,7 @@ iframe {
     .section_wrapper4 h3.sammenhold {
         font-size: 18px;
         position: absolute;
-        top: 340.5vw;
+        top: 344.5vw;
         left: 5vw;
     }
 
@@ -613,7 +620,7 @@ iframe {
     .section_wrapper4 h3.respekt {
         font-size: 18px;
         position: absolute;
-        top: 340.5vw;
+        top: 344.5vw;
         left: 27vw;
     }
 
