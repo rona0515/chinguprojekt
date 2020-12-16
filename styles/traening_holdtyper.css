@@ -430,6 +430,7 @@ a:active {
         background-color: #e31f1d;
         padding: 1vw 1vw;
         left: -7vw;
+        top: 1vw;
     }
 
     .section_wrapper3 h2 {
@@ -438,9 +439,10 @@ a:active {
         font-size: 20px;
         background-color: #e31f1d;
         padding: 1vw 1vw;
-        top: -107vw;
+        top: -106.5vw;
         margin: 20vw;
         left: 30vw;
+        z-index: 2;
     }
 
     .section_wrapper3 img {
@@ -448,61 +450,103 @@ a:active {
         margin-left: 2vw;
         top: -73.5vw;
         position: absolute;
-        left: 53vw;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        footer img {
-            position: absolute;
-            padding-top: 7vw;
-            width: 20%;
-            padding-left: 11vw;
-        }
-
-        footer p.kickboxing {
-            position: absolute;
-            padding-top: 10vw;
-            padding-left: 22vw;
-            font-size: 25px;
-            padding-right: 0vw;
-            margin-right: 0vw;
-        }
-
-        footer p.col1 {
-            position: absolute;
-            padding-top: 11vw;
-            padding-left: 51vw;
-            font-size: 16px;
-        }
-
-        footer p.col2 {
-            position: relative;
-            padding-top: 11vw;
-            padding-left: 69vw;
-            font-size: 15px;
-            padding-right: 0vw;
-
-        }
-
-        iframe {
-            position: relative;
-            top: 0vw;
-            width: 100%;
-            position: relative;
-            top: -50vw;
-            margin-bottom: -40vw;
-            padding-bottom: 0vw;
-        }
+        left: 51vw;
     }
+
+    .section_wrapper4 img {
+        width: 45%;
+        margin-left: 2vw;
+        top: -97.5vw;
+        position: absolute;
+        left: 51vw;
+    }
+
+
+    .section_wrapper4 h2 {
+        text-align: center;
+        position: relative;
+        background-color: #e31f1d;
+        padding: 1vw 1vw;
+        top: -131vw;
+        margin: 20vw;
+        left: 30vw;
+        z-index: 2;
+    }
+
+    #fifth_section {
+        position: absolute;
+        padding: 10vw;
+        top: 180vw;
+    }
+
+    .section_wrapper5 img {
+        width: 100%;
+        margin-left: 2vw;
+        top: 0vw;
+        position: absolute;
+        left: 0vw;
+    }
+
+    .section_wrapper5 h2 {
+        text-align: center;
+        position: relative;
+        background-color: #e31f1d;
+        padding: 1vw 17vw;
+        top: -24vw;
+        margin: 0vw;
+        left: -12vw;
+        z-index: 2;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    footer img {
+        position: absolute;
+        padding-top: 7vw;
+        width: 20%;
+        padding-left: 11vw;
+    }
+
+    footer p.kickboxing {
+        position: absolute;
+        padding-top: 10vw;
+        padding-left: 22vw;
+        font-size: 25px;
+        padding-right: 0vw;
+        margin-right: 0vw;
+    }
+
+    footer p.col1 {
+        position: absolute;
+        padding-top: 11vw;
+        padding-left: 51vw;
+        font-size: 16px;
+    }
+
+    footer p.col2 {
+        position: relative;
+        padding-top: 11vw;
+        padding-left: 69vw;
+        font-size: 15px;
+        padding-right: 0vw;
+
+    }
+
+    iframe {
+        position: relative;
+        top: 0vw;
+        width: 100%;
+        position: relative;
+        top: -50vw;
+        margin-bottom: -40vw;
+        padding-bottom: 0vw;
+    }
+}
