@@ -336,6 +336,96 @@ a:active {
         padding-left: 0;
     }
 
+    /*------------------------------zero_section----------------------------------/*/
+    .section_wrapper0 a.kontakt {
+        position: absolute;
+        color: white;
+        background-color: #f39200;
+        padding: 0.5vw 1vw;
+        font-size: 12px;
+        cursor: pointer;
+        top: 33vw;
+        left: 51vw;
+    }
+
+    .pris_baggrund {
+        position: relative;
+        width: 100%;
+        top: -114px;
+        z-index: -1;
+    }
+
+    .section_wrapper0 p {
+        text-align: left;
+        position: relative;
+        font-size: 24px;
+        top: 23vw;
+        left: 39vw;
+    }
+
+    .section_wrapper0 h2 {
+        text-align: center;
+        position: absolute;
+        font-size: 40px;
+        top: 27vw;
+        left: 39vw;
+    }
+
+    /*------------------------------first_section----------------------------------/*/
+
+    .section_wrapper1 h2 {
+        text-align: center;
+        position: relative;
+        font-size: 60px;
+        top: -12vw;
+    }
+
+    .pris1 {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        padding: -20vw;
+        width: 40%;
+        top: -7vw;
+        left: 5vw;
+
+    }
+
+    .pris2 {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 0vw;
+        width: 40%;
+        top: 80vw;
+        left: 53vw;
+    }
+
+    .section_wrapper1 p {
+        text-align: center;
+        position: relative;
+        font-size: 26px;
+        margin-left: 30vw;
+        margin-right: 30vw;
+        top: -12vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     footer img {
