@@ -61,8 +61,7 @@ a:link {
     text-decoration: none;
     font-family: lalezar;
     text-transform: uppercase;
-
-
+    cursor: pointer;
 }
 
 a:visited {
@@ -423,6 +422,7 @@ iframe {
 
     #menuknap {
         display: none;
+        cursor: pointer;
     }
 
     #menu.hidden {
