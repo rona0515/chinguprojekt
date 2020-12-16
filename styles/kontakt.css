@@ -350,6 +350,10 @@ iframe {
 
     }
 
+    footer p.col2 {
+        padding: 0vw;
+    }
+
     iframe {
         width: 100%;
     }
