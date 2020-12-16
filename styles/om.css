@@ -85,14 +85,33 @@ nav a {
 
 
 /*---------------------First_section------------------------*/
-#video_om {
+
+/*
+#section {
+    position: relative;
     width: 100%;
+    margin: 0 auto;
+}
+*/
+
+/*
+#video_intro {
+    height: 30vh;
+    width: 100vh;
     object-fit: cover;
+}
+*/
+#video_intro {
+    position: relative;
+    width: 100%;
+    top: 0;
+    height: auto;
 }
 
 p {
     padding: 30px 30px;
 }
+
 
 #first_section {
     position: relative;
@@ -120,11 +139,12 @@ p {
 /*------------------------second_section------------------------*/
 
 #second_section {
+    margin-top: 20vw;
     padding: 3rem 1rem;
     background: white;
     clip-path:
         polygon(0 0, 100% 3rem, 100% calc(100% - 3rem), 0 100%);
-    margin: -3rem 0;
+    margin: 0rem 0;
 }
 
 .section_wrapper1 h1 {
