@@ -352,8 +352,4 @@ iframe {
 
     iframe {
         width: 100%;
-        position: absolute;
-        top: 370vw;
-        margin-bottom: 0vw;
-        padding-bottom: 0vw;
     }
