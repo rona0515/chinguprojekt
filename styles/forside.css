@@ -279,6 +279,17 @@ h2 {
         padding-left: 0;
     }
 
+    .red2 {
+        position: absolute;
+        bottom: 1;
+        left: 0;
+        height: 20%;
+        width: 100%;
+        background: #e31f1d;
+        clip-path: polygon(0% 50px, 0px 0%, 100% 0%);
+        top: 49vw;
+    }
+
     h1 {
         font-size: 75px;
         padding-top: 4vw;
@@ -361,19 +372,20 @@ h2 {
 
     .section_wrapper5 h1 {
         top: 0.5vw;
+        left: 3vw;
         padding-top: 0vw;
     }
 
     .section_wrapper5 h2 {
         position: absolute;
-        top: 133vw;
-        left: 19vw;
+        top: 111vw;
+        left: 22vw;
     }
 
     .section_wrapper6 img {
         position: absolute;
         width: 39%;
-        top: 137.5vw;
+        top: 116vw;
         left: 57vw;
 
     }
@@ -393,14 +405,14 @@ h2 {
     .section_wrapper6 p {
         text-align: center;
         padding: 15px 15px;
-        top: 164vw;
+        top: 142vw;
         color: #141400;
         left: 48vw;
     }
 
     .section_wrapper6 p.hold {
         position: absolute;
-        top: 170vw;
+        top: 148vw;
         margin-right: 15vw;
         margin-left: 15vw;
         left: 57vw;
@@ -409,7 +421,7 @@ h2 {
     .section_wrapper6 h1 {
         position: absolute;
         font-size: 40px;
-        top: 130vw;
+        top: 108vw;
         color: #f39200;
         left: 68vw;
 
@@ -417,7 +429,7 @@ h2 {
 
     .section_wrapper6 h2 {
         position: absolute;
-        top: 133vw;
+        top: 111vw;
         left: 70vw;
     }
 
@@ -458,7 +470,14 @@ h2 {
         top: 0vw;
         width: 100%;
         position: relative;
-        top: -55vw;
+        top: -50vw;
         margin-bottom: -40vw;
         padding-bottom: 0vw;
     }
+
+    #video_intro {
+        height: 80vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
