@@ -9,7 +9,7 @@ body {
     padding: 0px;
 }
 
-//*------------------------------Burgermenu*----------------------------------/*/
+/*------------------------------Burgermenu*----------------------------------/*/
 .hidden {
     opacity: 0;
     transform: translateX(100%);
@@ -21,7 +21,7 @@ body {
     top: 2vw;
     left: 90vw;
     font-size: 30px;
-    font-family: roboto;
+    font-family: lalezar;
     color: white;
 }
 
@@ -55,6 +55,7 @@ a:link {
     text-decoration: none;
     font-family: lalezar;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 a:visited {
@@ -70,15 +71,16 @@ a:active {
 }
 
 
-/*------------------------------first_section----------------------------------/*/
-
-
-.pris {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 18vw;
+/*------------------------------zero_section----------------------------------/*/
+.section_wrapper0 a.kontakt {
+    position: absolute;
+    color: white;
+    background-color: #f39200;
+    padding: 0.5vw 1vw;
+    font-size: 12px;
+    cursor: pointer;
+    top: 265px;
+    left: 235px;
 }
 
 .pris_baggrund{
@@ -88,21 +90,52 @@ a:active {
     z-index: -1;
 }
 
-.section_wrapper1 {
-    text-align: center;
-}
-
-.section_wrapper1 p {
+.section_wrapper0 p {
     text-align: left;
     position: relative;
-    top: 105px;
-    left: 150px;
+    top: 215px;
+    left: 125px;
 }
+
+.section_wrapper0 h2 {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    top: 200px;
+}
+
+
+
+
+/*------------------------------second_section----------------------------------/*/
 
 .section_wrapper1 h2 {
     text-align: center;
     position: relative;
-    top: 120px;
+    font-size: 40px;
+}
+
+.pris1 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+}
+
+.pris2 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+}
+
+.section_wrapper1 p {
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    margin: 20px;
 }
 
 /*------------------------------second_section----------------------------------/*/
@@ -273,10 +306,6 @@ a:active {
         width: 10%;
         padding-left: 0;
     }
-
-
-
-
 
 
         footer img {
