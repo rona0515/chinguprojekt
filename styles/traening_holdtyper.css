@@ -83,7 +83,7 @@ a:active {
     left: 235px;
 }
 
-.pris_baggrund{
+.pris_baggrund {
     position: relative;
     width: 100%;
     top: -14px;
@@ -107,7 +107,7 @@ a:active {
 
 
 
-/*------------------------------second_section----------------------------------/*/
+/*------------------------------first_section----------------------------------/*/
 
 .section_wrapper1 h2 {
     text-align: center;
@@ -144,8 +144,14 @@ a:active {
     padding: 10vw;
 }
 
+.section_wrapper2 h2 {
+    text-align: center;
+    position: relative;
+    background-color: #e31f1d;
+    padding: 1vw 1vw;
+}
 
-.red2 {
+/*.red2 {
     position: absolute;
     background-color: #e31f1d;
     clip-path: polygon(0 0, 0 30%, 100% 45%, 100% 14%);
@@ -154,7 +160,7 @@ a:active {
     z-index: -1;
     top: 7px;
     left: 0px;
-}
+}*/
 
 
 .white {
@@ -175,7 +181,15 @@ a:active {
 
 }
 
-.red3 {
+.section_wrapper3 h2 {
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    background-color: #e31f1d;
+    padding: 1vw 1vw;
+}
+
+/*.red3 {
     position: absolute;
     background-color: #e31f1d;
     clip-path: polygon(0 0, 0 30%, 100% 45%, 100% 14%);
@@ -184,7 +198,7 @@ a:active {
     z-index: -1;
     top: -9px;
     left: 0px;
-}
+}*/
 
 /*------------------------------fourth_section----------------------------------/*/
 #fourth_section {
@@ -193,7 +207,14 @@ a:active {
 
 }
 
-.red4 {
+.section_wrapper4 h2 {
+    text-align: center;
+    position: relative;
+    background-color: #e31f1d;
+    padding: 1vw 1vw;
+}
+
+/*.red4 {
     position: absolute;
     background-color: #e31f1d;
     clip-path: polygon(0 0, 0 30%, 100% 45%, 100% 14%);
@@ -202,7 +223,7 @@ a:active {
     z-index: -1;
     top: 9px;
     left: 0px;
-}
+}*/
 
 /*------------------------------fifth_section----------------------------------/*/
 #fifth_section {
@@ -221,7 +242,15 @@ a:active {
     left: 0px;
 }
 
-.red5 {
+
+.section_wrapper5 h2 {
+    text-align: center;
+    position: relative;
+    background-color: #e31f1d;
+    padding: 1vw 1vw;
+}
+
+/*.red5 {
      position: absolute;
     background-color: #e31f1d;
     clip-path: polygon(0 0, 0 30%, 100% 45%, 100% 14%);
@@ -230,7 +259,7 @@ a:active {
     z-index: -1;
     top: 13px;
     left: 0px;
-}
+}*/
 
 
 /*------------------------------desktop site----------------------------------/*/
@@ -307,8 +336,79 @@ a:active {
         padding-left: 0;
     }
 
+    /*------------------------------zero_section----------------------------------/*/
+    .section_wrapper0 a.kontakt {
+        position: absolute;
+        color: white;
+        background-color: #f39200;
+        padding: 0.5vw 1vw;
+        font-size: 20px;
+        cursor: pointer;
+        top: 468px;
+        left: 727px;
+    }
 
-        footer img {
+    .pris_baggrund {
+        position: relative;
+        width: 100%;
+        top: -200px;
+        z-index: -1;
+    }
+
+    .section_wrapper0 p {
+        text-align: left;
+        position: relative;
+        font-size: 25px;
+        top: 345px;
+        left: 543px;
+    }
+
+    .section_wrapper0 h2 {
+        text-align: center;
+        position: relative;
+        font-size: 70px;
+        top: 324px;
+    }
+
+
+    /*------------------------------first_section----------------------------------/*/
+    .section_wrapper1 h2 {
+        text-align: center;
+        position: relative;
+        font-size: 75px;
+        top: -235px;
+    }
+
+    .section_wrapper1 p {
+        text-align: center;
+        position: relative;
+        font-size: 28px;
+        margin: 347px;
+        top: -605px;
+    }
+
+    .pris1 {
+        position: relative;
+        z-index: 1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        top: -1000px;
+    }
+
+    .pris2 {
+        position: relative;
+        z-index: 1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        top: -1215px;
+    }
+
+
+    footer img {
         position: absolute;
         padding-top: 7vw;
         width: 20%;
@@ -349,3 +449,4 @@ a:active {
         margin-bottom: -40vw;
         padding-bottom: 0vw;
     }
+}
