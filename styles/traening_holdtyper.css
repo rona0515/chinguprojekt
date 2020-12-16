@@ -74,6 +74,12 @@ a:active {
 /*------------------------------first_section----------------------------------/*/
 #first_section {
     position: relative;
+    padding: 10vw;
+}
+
+#first_section img {
+    position: relative;
+    padding: 2vw;
 }
 
 .section_wrapper1 {
@@ -84,13 +90,8 @@ a:active {
 #second_section {
     position: relative;
     padding: 10vw;
-
 }
 
-h2 {
-    text-align: center;
-
-}
 
 .red2 {
     position: absolute;
@@ -253,6 +254,9 @@ h2 {
         width: 10%;
         padding-left: 0;
     }
+
+
+
 
 
 
