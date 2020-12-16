@@ -166,6 +166,18 @@ h2 {
     margin: -3rem 0;
 }
 
+.section_wrapper5 a {
+    background-color: #e31f1d;
+    text-align: center;
+    width: 300px;
+}
+
+.section_wrapper5 a span {
+    color: #fff;
+    text-align: center;
+
+}
+
 .section_wrapper5 h1 {
     text-transform: uppercase;
     font-size: 40px;
