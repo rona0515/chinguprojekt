@@ -12,7 +12,7 @@ body {
 //*------------------------------Burgermenu*----------------------------------/*/
 .hidden {
     opacity: 0;
-    transform: translateX(100%)
+    transform: translateX(100%);
 }
 
 #menuknap {
@@ -69,29 +69,40 @@ a:active {
     color: white;
 }
 
+
 /*------------------------------first_section----------------------------------/*/
-#first_section {
-    position: relative;
-}
+
 
 .pris {
     position: relative;
-    top: 50px;
     z-index: 1;
     display: flex;
     flex-direction: column;
-    padding: 10vw;
+    padding: 18vw;
 }
 
-.prisbaggrund{
+.pris_baggrund{
     position: relative;
     width: 100%;
-    top: 50px;
+    top: -14px;
     z-index: -1;
 }
 
 .section_wrapper1 {
     text-align: center;
+}
+
+.section_wrapper1 p {
+    text-align: left;
+    position: relative;
+    top: 105px;
+    left: 150px;
+}
+
+.section_wrapper1 h2 {
+    text-align: center;
+    position: relative;
+    top: 120px;
 }
 
 /*------------------------------second_section----------------------------------/*/
