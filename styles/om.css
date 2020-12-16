@@ -12,12 +12,14 @@
 #menuknap {
     position: absolute;
     display: inline-block;
-    position: absolute;
     top: 2vw;
     left: 90vw;
     font-size: 30px;
+    font-family: roboto;
+    color: white;
 }
 
+/*
 #menu {
     position: absolute;
     z-index: 2;
@@ -29,7 +31,17 @@
     transform-origin: top right;
 
 }
-
+*/
+#menu {
+    position: absolute;
+    transform-origin: top right;
+    z-index: 2;
+    text-align: right;
+    transition: transform 0.3s;
+    list-style: none;
+    top: 13vw;
+    left: 57vw;
+}
 
 /*------------------------------logo*----------------------------------/*/
 a img {
@@ -40,31 +52,30 @@ a img {
     left: 2vw;
 }
 
-#menuknap {
-    color: white;
-}
-
-#menu {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 23%, rgba(255, 255, 255, 1) 100%);
+li {
+    padding-bottom: 3vw;
 }
 
 a:link {
-    color: black;
+    color: #f39200;
+    text-decoration: none;
+    font-family: lalezar;
+    text-transform: uppercase;
+
+
 }
 
 a:visited {
-    color: black;
+    color: #f39200;
 }
 
 a:hover:hover {
-    color: orange;
+    color: white;
 }
 
 a:active {
     color: white;
 }
-
 
 
 /*
@@ -74,9 +85,32 @@ nav a {
 
 
 /*---------------------First_section------------------------*/
+
+/*
+#section {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+*/
+
+/*
+#video_intro {
+    height: 30vh;
+    width: 100vh;
+    object-fit: cover;
+}
+*/
+#video_om {
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+}
+
 p {
     padding: 30px 30px;
 }
+
 
 #first_section {
     position: relative;
@@ -92,7 +126,7 @@ p {
 }
 
 .red {
-    position: absolute;
+    z-index: 2 position: absolute;
     bottom: 0;
     left: 0;
     height: 20%;
@@ -104,11 +138,12 @@ p {
 /*------------------------second_section------------------------*/
 
 #second_section {
+    margin-top: 20vw;
     padding: 3rem 1rem;
     background: white;
     clip-path:
         polygon(0 0, 100% 3rem, 100% calc(100% - 3rem), 0 100%);
-    margin: -3rem 0;
+    margin: 0rem 0;
 }
 
 .section_wrapper1 h1 {
@@ -194,7 +229,6 @@ h1.outline {
 
 .section_wrapper3 h2 {
     padding-left: 13vw;
-    padding-top: 20vw;
     padding-bottom: 0;
     text-transform: uppercase;
     font-size: 30px;
@@ -410,7 +444,7 @@ iframe {
     #menu {
         flex-direction: row;
         top: -1vw;
-        left: 23vw;
+        left: 10vw;
 
     }
 
@@ -436,15 +470,15 @@ iframe {
     }
 
     a:link {
-        color: #e31f1d;
+        color: #f39200;
     }
 
     a:visited {
-        color: #e31f1d;
+        color: #f39200;
     }
 
     a:hover:hover {
-        color: orange;
+        color: white;
     }
 
     a:active {
@@ -488,33 +522,33 @@ iframe {
     }
 
     #second_section {
-        margin: -5rem 0;
+        margin: -1rem 0;
     }
 
     .section_wrapper2 h1 {
         position: absolute font-size: 60px;
         position: absolute;
-        top: 55vw;
+        top: 51vw;
         left: 53vw;
     }
 
     .section_wrapper2 h2 {
         color: red;
         font-size: 30px;
-        top: -21vw;
+        top: -25vw;
         padding-left: 54vw;
     }
 
     .section_wrapper2 p {
         color: black;
         position: absolute;
-        top: 72vw;
+        top: 69vw;
         left: 53vw;
         padding-right: 50px;
     }
 
     .red2 {
-        top: 92vw;
+        top: 89vw;
         clip-path: polygon(100% 0, 0px 35%, 100% 75%);
     }
 
@@ -534,6 +568,14 @@ iframe {
         position: relative;
         top: 4vw;
 
+    }
+
+    #third_section {
+        background-color: red;
+    }
+
+    #fourth_section {
+        padding-bottom: 0vw;
     }
 
     #fifth_section {
@@ -563,7 +605,7 @@ iframe {
     .section_wrapper4 h3.sammenhold {
         font-size: 18px;
         position: absolute;
-        top: 279vw;
+        top: 340.5vw;
         left: 5vw;
     }
 
@@ -571,7 +613,7 @@ iframe {
     .section_wrapper4 h3.respekt {
         font-size: 18px;
         position: absolute;
-        top: 279vw;
+        top: 340.5vw;
         left: 27vw;
     }
 
@@ -602,7 +644,7 @@ iframe {
     .section_wrapper4 img.respekt {
         position: absolute;
         width: 15vw;
-        ;
+
         height: 10vw;
         margin-left: 29vw;
         margin-top: 5vw;
@@ -664,8 +706,14 @@ iframe {
     iframe {
         width: 100%;
         position: absolute;
-        top: 310vw;
+        top: 370vw;
         margin-bottom: 0vw;
         padding-bottom: 0vw;
+    }
+
+    #video_om {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
     }
 }

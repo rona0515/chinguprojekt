@@ -12,12 +12,14 @@
 #menuknap {
     position: absolute;
     display: inline-block;
-    position: absolute;
     top: 2vw;
     left: 90vw;
     font-size: 30px;
+    font-family: roboto;
+    color: white;
 }
 
+/*
 #menu {
     position: absolute;
     z-index: 2;
@@ -29,7 +31,17 @@
     transform-origin: top right;
 
 }
-
+*/
+#menu {
+    position: absolute;
+    transform-origin: top right;
+    z-index: 2;
+    text-align: right;
+    transition: transform 0.3s;
+    list-style: none;
+    top: 13vw;
+    left: 57vw;
+}
 
 /*------------------------------logo*----------------------------------/*/
 a img {
@@ -40,25 +52,25 @@ a img {
     left: 2vw;
 }
 
-#menuknap {
-    color: white;
-}
-
-#menu {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 23%, rgba(255, 255, 255, 1) 100%);
+li {
+    padding-bottom: 3vw;
 }
 
 a:link {
-    color: black;
+    color: orange;
+    text-decoration: none;
+    font-family: lalezar;
+    text-transform: uppercase;
+
+
 }
 
 a:visited {
-    color: black;
+    color: orange;
 }
 
 a:hover:hover {
-    color: orange;
+    color: white;
 }
 
 a:active {
@@ -81,6 +93,7 @@ a:active {
     width: 100%;
     background: #e31f1d;
     clip-path: polygon(0% 50px, 0px 5%, 100% 15%);
+    top: 44vw;
 }
 
 /*second_section*/
@@ -151,6 +164,18 @@ h2 {
     clip-path:
         polygon(0 0, 100% 3rem, 100% calc(100% - 3rem), 0 100%);
     margin: -3rem 0;
+}
+
+.section_wrapper5 a {
+    background-color: #e31f1d;
+    text-align: center;
+    width: 300px;
+}
+
+.section_wrapper5 a span {
+    color: #fff;
+    text-align: center;
+
 }
 
 .section_wrapper5 h1 {
@@ -298,7 +323,7 @@ h2 {
         width: 100%;
         background: #e31f1d;
         clip-path: polygon(0% 50px, 0px 0%, 100% 0%);
-        top: 49vw;
+        top: 46vw;
     }
 
     h1 {
