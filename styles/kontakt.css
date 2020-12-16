@@ -46,7 +46,7 @@ a img {
     left: 2vw;
 }
 
-section:nth-of-type(4){
+section:nth-of-type(4) {
     position: absolute;
     width: 12.5%;
     z-index: 2;
@@ -93,9 +93,9 @@ section .copy {
 }
 
 section:nth-of-type(1) {
-height: 20px;
+    height: 20px;
 
-    }
+}
 
 section:nth-of-type(2) {
     margin-top: -48px;
@@ -182,7 +182,7 @@ button {
 }
 
 
-#facebook{
+#facebook {
     position: relative;
     top: 50px;
     right: 3px;
@@ -238,6 +238,14 @@ iframe {
 /*----------------------desktop version----------------------------*/
 
 @media (min-width:600px) {
+
+    a img {
+        position: absolute;
+        width: 8%;
+        z-index: 2;
+        top: 2vw;
+        left: 2vw;
+    }
 
     #menuknap {
         display: none;

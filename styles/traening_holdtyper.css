@@ -265,6 +265,13 @@ a:active {
 /*------------------------------desktop site----------------------------------/*/
 
 @media (min-width:600px) {
+    a img {
+        position: absolute;
+        width: 8%;
+        z-index: 2;
+        top: 2vw;
+        left: 2vw;
+    }
 
     #menuknap {
         display: none;
@@ -315,15 +322,15 @@ a:active {
     }
 
     a:link {
-        color: #e31f1d;
+        color: #f39200;
     }
 
     a:visited {
-        color: #e31f1d;
+        color: #f39200;
     }
 
     a:hover:hover {
-        color: orange;
+        color: white;
     }
 
     a:active {

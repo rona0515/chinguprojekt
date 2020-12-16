@@ -447,6 +447,14 @@ iframe {
 }
 
 @media (min-width:1280px) {
+    a img {
+        position: absolute;
+        width: 8%;
+        z-index: 2;
+        top: 2vw;
+        left: 2vw;
+    }
+
     nav {
         margin-top: 1vw;
     }
