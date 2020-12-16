@@ -230,3 +230,128 @@ iframe {
     position: relative;
     top: 350px;
 }
+
+
+
+
+
+/*----------------------desktop version----------------------------*/
+
+@media (min-width:600px) {
+
+    #menuknap {
+        display: none;
+        cursor: pointer;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu {
+        background-color: none;
+        background: none;
+    }
+}
+
+@media (min-width:1280px) {
+    nav {
+        margin-top: 1vw;
+    }
+
+    #menu {
+        flex-direction: row;
+        top: -1vw;
+        left: 10vw;
+
+    }
+
+    li {
+        float: left;
+    }
+
+
+    nav a {
+        font-size: 30px;
+        margin: 40px;
+        font-family: Acumin pro thin;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 60px;
+        padding-bottom: 20px;
+        margin-top: 1vw;
+    }
+
+    a {
+        display: block;
+        padding-left: 5px;
+    }
+
+    a:link {
+        color: #f39200;
+    }
+
+    a:visited {
+        color: #f39200;
+    }
+
+    a:hover:hover {
+        color: white;
+    }
+
+    a:active {
+        color: white;
+    }
+
+    nav a img {
+        position: absolute;
+        width: 10%;
+        padding-left: 0;
+    }
+
+    footer img {
+        position: absolute;
+        padding-top: 7vw;
+        width: 20%;
+        padding-left: 11vw;
+    }
+
+    footer p.kickboxing {
+        position: absolute;
+        padding-top: 10vw;
+        padding-left: 22vw;
+        font-size: 25px;
+        padding-right: 0vw;
+        margin-right: 0vw;
+    }
+
+    footer p.col1 {
+        position: absolute;
+        padding-top: 11vw;
+        padding-left: 51vw;
+        font-size: 16px;
+    }
+
+    footer p.col2 {
+        position: relative;
+        padding-top: 11vw;
+        padding-left: 69vw;
+        font-size: 15px;
+        padding-right: 0vw;
+
+    }
+
+    iframe {
+        width: 100%;
+        position: absolute;
+        top: 370vw;
+        margin-bottom: 0vw;
+        padding-bottom: 0vw;
+    }
+
+    #video_om {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
