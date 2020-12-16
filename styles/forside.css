@@ -61,8 +61,7 @@ a:link {
     text-decoration: none;
     font-family: lalezar;
     text-transform: uppercase;
-
-
+    cursor: pointer;
 }
 
 a:visited {
@@ -200,6 +199,7 @@ h2 {
     text-align: center;
     margin-left: 30vw;
     margin-right: 30vw;
+    cursor: pointer;
 }
 
 a.om {
@@ -228,6 +228,7 @@ a.om {
     text-align: center;
     margin-left: 35vw;
     margin-right: 30vw;
+    cursor: pointer;
 }
 
 a.hold {
@@ -240,6 +241,7 @@ a.hold {
 
     #menuknap {
         display: none;
+        cursor: pointer;
     }
 
     #menu.hidden {
