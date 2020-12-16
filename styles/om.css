@@ -57,7 +57,7 @@ li {
 }
 
 a:link {
-    color: orange;
+    color: #f39200;
     text-decoration: none;
     font-family: lalezar;
     text-transform: uppercase;
@@ -66,7 +66,7 @@ a:link {
 }
 
 a:visited {
-    color: orange;
+    color: #f39200;
 }
 
 a:hover:hover {
@@ -444,7 +444,7 @@ iframe {
     #menu {
         flex-direction: row;
         top: -1vw;
-        left: 23vw;
+        left: 10vw;
 
     }
 
@@ -470,15 +470,15 @@ iframe {
     }
 
     a:link {
-        color: #e31f1d;
+        color: #f39200;
     }
 
     a:visited {
-        color: #e31f1d;
+        color: #f39200;
     }
 
     a:hover:hover {
-        color: orange;
+        color: white;
     }
 
     a:active {
@@ -522,33 +522,33 @@ iframe {
     }
 
     #second_section {
-        margin: -5rem 0;
+        margin: -1rem 0;
     }
 
     .section_wrapper2 h1 {
         position: absolute font-size: 60px;
         position: absolute;
-        top: 55vw;
+        top: 51vw;
         left: 53vw;
     }
 
     .section_wrapper2 h2 {
         color: red;
         font-size: 30px;
-        top: -21vw;
+        top: -25vw;
         padding-left: 54vw;
     }
 
     .section_wrapper2 p {
         color: black;
         position: absolute;
-        top: 72vw;
+        top: 69vw;
         left: 53vw;
         padding-right: 50px;
     }
 
     .red2 {
-        top: 92vw;
+        top: 89vw;
         clip-path: polygon(100% 0, 0px 35%, 100% 75%);
     }
 
@@ -568,6 +568,14 @@ iframe {
         position: relative;
         top: 4vw;
 
+    }
+
+    #third_section {
+        background-color: red;
+    }
+
+    #fourth_section {
+        padding-bottom: 0vw;
     }
 
     #fifth_section {
@@ -597,7 +605,7 @@ iframe {
     .section_wrapper4 h3.sammenhold {
         font-size: 18px;
         position: absolute;
-        top: 279vw;
+        top: 340.5vw;
         left: 5vw;
     }
 
@@ -605,7 +613,7 @@ iframe {
     .section_wrapper4 h3.respekt {
         font-size: 18px;
         position: absolute;
-        top: 279vw;
+        top: 340.5vw;
         left: 27vw;
     }
 
@@ -636,7 +644,7 @@ iframe {
     .section_wrapper4 img.respekt {
         position: absolute;
         width: 15vw;
-        ;
+
         height: 10vw;
         margin-left: 29vw;
         margin-top: 5vw;
@@ -698,7 +706,7 @@ iframe {
     iframe {
         width: 100%;
         position: absolute;
-        top: 310vw;
+        top: 370vw;
         margin-bottom: 0vw;
         padding-bottom: 0vw;
     }
