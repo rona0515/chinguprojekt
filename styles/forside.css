@@ -39,6 +39,8 @@
     text-align: right;
     transition: transform 0.3s;
     list-style: none;
+    top: 13vw;
+    left: 57vw;
 }
 
 /*------------------------------logo*----------------------------------/*/
@@ -50,7 +52,9 @@ a img {
     left: 2vw;
 }
 
-
+li {
+    padding-bottom: 3vw;
+}
 
 a:link {
     color: orange;
@@ -89,6 +93,7 @@ a:active {
     width: 100%;
     background: #e31f1d;
     clip-path: polygon(0% 50px, 0px 5%, 100% 15%);
+    top: 44vw;
 }
 
 /*second_section*/
