@@ -46,6 +46,14 @@ a img {
     left: 2vw;
 }
 
+section:nth-of-type(4){
+    position: absolute;
+    width: 12.5%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
 li {
     padding-bottom: 3vw;
 }
@@ -77,7 +85,7 @@ section {
     display: grid;
     place-items: center;
     color: #fff;
-    min-height: 50vh;
+    min-height: 25vh;
 }
 
 section .copy {
@@ -85,29 +93,44 @@ section .copy {
 }
 
 section:nth-of-type(1) {
+height: 20px;
+
+    }
+
+section:nth-of-type(2) {
     margin-top: -48px;
     background: url(/Billeder/cropped_WEB/kontakt_01.jpg);
     background-size: cover;
     background-position: 50% 50%;
+    height: 35vh;
 }
 
 
-section:nth-of-type(2),
 section:nth-of-type(3),
 section:nth-of-type(4),
-section:nth-of-type(5) {
+section:nth-of-type(5),
+section:nth-of-type(6) {
     width: 100%;
 }
 
-section:nth-of-type(2) img,
+section:nth-of-type(3) {
+    margin: 8vh 0 0 0;
+}
+
+section:nth-of-type(5) {
+    margin: 18vh 0 0 0;
+}
+
 section:nth-of-type(3) img,
-section:nth-of-type(4) img {
+section:nth-of-type(4) img,
+section:nth-of-type(5) img {
     width: auto;
     height: auto;
     position: relative;
 }
 
 
+/*
 #trekant {
     position: absolute;
     background: #E3201D;
@@ -116,6 +139,7 @@ section:nth-of-type(4) img {
     height: 400px;
 
 }
+*/
 
 
 .content {
@@ -123,7 +147,6 @@ section:nth-of-type(4) img {
 }
 
 h4 {
-    margin: -100px;
     text-align: center;
 }
 
@@ -137,6 +160,10 @@ select {
     display: block;
     width: 50vw;
     font-family: 'Roboto', sans-serif;
+}
+
+form {
+    margin: 3vh 0 0 0;
 }
 
 input {
