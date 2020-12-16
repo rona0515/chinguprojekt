@@ -192,7 +192,125 @@ button {
 
 /* Footer */
 
+footer {
+    margin: -23vh 0 0 0;
+}
+
 footer img {
+    position: absolute;
+    padding-top: 14vw;
+    width: 35%;
+    padding-left: 11vw;
+}
+
+footer p.kickboxing {
+    position: absolute;
+    padding-top: 25vw;
+    padding-left: 37vw;
+}
+
+footer p.col1 {
+    position: absolute;
+    padding-top: 50vw;
+    padding-left: 10vw;
+    font-size: 15px;
+}
+
+footer p.col2 {
+    position: absolute;
+    padding: 44vw;
+    padding-left: 60vw;
+    font-size: 15px;
+
+}
+
+iframe {
+    width: 100%;
+    width: 100%;
+    position: relative;
+    top: 350px;
+}
+
+
+
+
+
+/*----------------------desktop version----------------------------*/
+
+@media (min-width:600px) {
+
+    #menuknap {
+        display: none;
+        cursor: pointer;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu {
+        background-color: none;
+        background: none;
+    }
+}
+
+@media (min-width:1280px) {
+    nav {
+        margin-top: 1vw;
+    }
+
+    #menu {
+        flex-direction: row;
+        top: -1vw;
+        left: 10vw;
+
+    }
+
+    li {
+        float: left;
+    }
+
+
+    nav a {
+        font-size: 30px;
+        margin: 40px;
+        font-family: Acumin pro thin;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 60px;
+        padding-bottom: 20px;
+        margin-top: 1vw;
+    }
+
+    a {
+        display: block;
+        padding-left: 5px;
+    }
+
+    a:link {
+        color: #f39200;
+    }
+
+    a:visited {
+        color: #f39200;
+    }
+
+    a:hover:hover {
+        color: white;
+    }
+
+    a:active {
+        color: white;
+    }
+
+    nav a img {
+        position: absolute;
+        width: 10%;
+        padding-left: 0;
+    }
+
+    footer img {
         position: absolute;
         padding-top: 7vw;
         width: 20%;
