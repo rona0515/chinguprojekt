@@ -1,22 +1,77 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-	background: #141400;
+    margin: 0px;
+    overflow-x: hidden;
+    padding: 0px;
 }
 
-header {
-	height: 30vh;
+/*------------------------------Burgermenu*----------------------------------/*/
+.hidden {
+    opacity: 0;
+    transform: translateX(100%);
 }
 
-header a img {
-	position: absolute;
-	top: 2vw;
-	left: 2vw;
-	width: 12.5%;
+#menuknap {
+    position: absolute;
+    display: inline-block;
+    top: 2vw;
+    left: 90vw;
+    font-size: 30px;
+    font-family: lalezar;
+    color: white;
 }
+
+#menu {
+    position: absolute;
+    transform-origin: top right;
+    z-index: 2;
+    text-align: right;
+    transition: transform 0.3s;
+    list-style: none;
+    top: 13vw;
+    left: 57vw;
+}
+
+
+/*------------------------------logo*----------------------------------/*/
+a img {
+    position: absolute;
+    width: 12.5%;
+    z-index: 2;
+    top: 2vw;
+    left: 2vw;
+}
+
+li {
+    padding-bottom: 3vw;
+}
+
+a:link {
+    color: orange;
+    text-decoration: none;
+    font-family: lalezar;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+/*------------------------------mobile*----------------------------------/*/
+
 
 section {
 	display: grid;
